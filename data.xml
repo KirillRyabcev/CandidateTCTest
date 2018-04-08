@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<roots>
+    <root>
+        <role>Генеральный директор</role>
+        <login>kabanov@tc.by</login>
+        <password>welcome</password>
+    </root>
+    <root>
+        <role>Начальник отдела</role>
+        <login>smirnov@tc.by</login>
+        <password>welcome</password>
+    </root>
+    <root>
+        <role>Тестировщик</role>
+        <login>martinov@tc.by</login>
+        <password>welcome</password>
+    </root>
+    <root>
+        <role>Инженер-программист</role>
+        <login>lobanov@tc.by</login>
+        <password>welcome</password>
+    </root>
+    <root>
+        <role>Бухгалтер</role>
+        <login>fomin@tc.by</login>
+        <password>welcome</password>
+    </root>
+</roots>
