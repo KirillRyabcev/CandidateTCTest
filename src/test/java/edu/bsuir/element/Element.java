@@ -82,4 +82,10 @@ public class Element {
         element.sendKeys(text);
     }
 
+    public void type2(String text) {
+        assertPresence();
+        WebElement element = getWebElement();
+        element.sendKeys(text);
+    }
+
 }

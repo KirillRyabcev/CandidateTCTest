@@ -23,6 +23,7 @@ public class CreateElement {
     public static final Element DESIRED_POSITION = new Element("Желаемая должность", By.xpath("//*[@id=\"desiredPosition\"]"));
     public static final Element CANCEL = new Element("Образование", By.xpath(" //*[@id=\"cancelButton\"]"));
     public static final Element SAVE = new Element("Образование", By.xpath("//*[@id=\"saveButton\"]"));
-
-
+    public static final Element CHANGE_AVATAR = new Element("Поменять изображение", By.id("changeImgLink"));
+    public static final Element ADD_ATTACHMENT = new Element("Прикрепить файл", By.xpath("//*[@id=\"add-attachment\"]"));
+    public static final Element LOAD_CV_INPUT = new Element("Загрузить резюме",By.xpath("//*[@id=\"profileCVInput\"]"));
 }

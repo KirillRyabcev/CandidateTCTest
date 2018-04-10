@@ -61,4 +61,13 @@ public class CreatePage {
     public void clickSave(){
         CreateElement.SAVE.click();
     }
+    public void clickChangeAvatar() {
+        CreateElement.CHANGE_AVATAR.click();
+    }
+    public void loadCV(String path){
+        CreateElement.LOAD_CV_INPUT.type2(path);
+    }
+    public void clickAddAttachment(){
+        CreateElement.ADD_ATTACHMENT.click();
+    }
 }

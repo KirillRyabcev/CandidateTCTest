@@ -17,10 +17,17 @@ import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-
+import org.sikuli.script.Pattern;
+import org.sikuli.script.Screen;
+import java.awt.*;
+import java.awt.datatransfer.StringSelection;
+import java.awt.event.KeyEvent;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
 import java.util.NoSuchElementException;
+
 
 /**
  * Created by Acer on 05.04.2018.
@@ -32,19 +39,6 @@ public class CreateCandidateTest {
     CreatePage cp = new CreatePage();
     CandidatesListPage clp = new CandidatesListPage();
     CandidateProfilePage cpp = new CandidateProfilePage();
-
-    @BeforeClass
-    public static void comeToCreatePage() throws Exception{
-        Login login = new Login();
-        login.login("Генеральный директор");
-        Helper.comeToCandidatesList();
-        Helper.waitForTime(2);
-    }
-
-    @Before
-    public void clickCreate() {
-        clp.clickCreate();
-    }
 
     static String name = "Иван";
     static String surname = "Соколов";
@@ -60,10 +54,47 @@ public class CreateCandidateTest {
     static String valueOfEducation = "4";
     static String desiredPosition = "Junior Java Developer";
 
+    private void login() {
+        driver.get("http://testing.cld.iba.by/");
+        driver.findElement(By.id("_58_login")).sendKeys("kabanov@tc.by");
+        driver.findElement(By.id("_58_password")).sendKeys("welcome");
+        driver.findElement(By.xpath("//button[@type='submit']")).click();
+    }
+
+    private void sendFile(String path) {
+        try {
+            setClipboardData(path);
+            Robot robot = new Robot();
+            robot.delay(1000);
+            robot.keyPress(KeyEvent.VK_CONTROL);
+            robot.keyPress(KeyEvent.VK_V);
+            robot.keyRelease(KeyEvent.VK_V);
+            robot.keyRelease(KeyEvent.VK_CONTROL);
+            robot.delay(1000);
+            robot.keyPress(KeyEvent.VK_ENTER);
+            robot.delay(1000);
+            robot.keyPress(KeyEvent.VK_CANCEL);
+        } catch (AWTException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private String getAbsolutePath(String file) {
+        Path path = Paths.get(file);
+        return path.toAbsolutePath().toString();
+    }
+
+    private void setClipboardData(String string) {
+        StringSelection stringSelection = new StringSelection(string);
+        Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringSelection, null);
+    }
+
     //-------------------------------------Positive tests----------------------------------//
 
     @Test
     public void createCandidateTest() throws Exception{
+        login();
+        driver.get("http://testing.cld.iba.by/web/guest/recruiting/candidates/-/candidates/createProfile");
         Helper.waitForTime(1);
         cp.typeName(name);
         cp.typeSurname(surname);
@@ -80,11 +111,12 @@ public class CreateCandidateTest {
         cp.selectEducationByValue(valueOfEducation);
         cp.typePosition(desiredPosition);
         cp.clickSave();
-        cpp.clickReturnToCandidateList();
+        driver.get("http://testing.cld.iba.by/web/guest/recruiting/candidates");
         Helper.waitForTime(2);
         clp.typeSearch(surname);
         Helper.waitForTime(1);
         clp.clickCandidate();
+        Helper.waitForTime(2);
         Assert.assertEquals(surname + " " + name + " " + fatherName, driver.findElement(By.xpath("//div[@class=\"tc-theme-page-name\"]")).getText());
         Assert.assertTrue( driver.findElement(By.xpath("//*[@id=\"profileForm\"]/div[2]/div[3]/div/div[2]/div[2]/div/div/div[2]")).getText().contains(day + "." + month + "." + year));
         Assert.assertTrue(driver.findElement(By.xpath("//*[@class=\"residence\"]")).getText().contains(country));
@@ -95,33 +127,96 @@ public class CreateCandidateTest {
 
     @Test
     public void PhoneWithPlusBracketsAndDashTest() throws Exception{
+        login();
+        driver.get("http://testing.cld.iba.by/web/guest/recruiting/candidates/-/candidates/createProfile");
         Helper.waitForTime(1);
-        Helper.setRequiredFields(name, surname, phone, email);
+        cp.typeName(name);
+        cp.typeSurname(surname);
+        cp.typePhone(phone);
+        cp.typeEmail(email);
         cp.typePhone("+12(34)-56-78");
         cp.clickSave();
+        Helper.waitForTime(2);
         Assert.assertEquals("+12(34)-56-78",driver.findElement(By.xpath("//*[@id=\"primaryTelephone\"]")).getText());
         Helper.waitForTime(1);
     }
 
     @Test
     public void nameWithAnyCharachtersTest() throws Exception{
+        login();
+        driver.get("http://testing.cld.iba.by/web/guest/recruiting/candidates/-/candidates/createProfile");
         Helper.waitForTime(1);
-        Helper.setRequiredFields(name, surname, phone, email);
+        cp.typeName(name);
+        cp.typeSurname(surname);
+        cp.typePhone(phone);
+        cp.typeEmail(email);
         String name2 = Helper.generateRandomString(15,GeneratorMode.ANY_CHARACTERS);
         cp.typeName(name2);
         cp.clickSave();
+        Helper.waitForTime(2);
         Assert.assertTrue(driver.findElement(By.xpath("//*[@id=\"content\"]/div")).getText().contains(name2));
         Helper.waitForTime(1);
     }
 
     @Test
     public void emailWithUnderscoreAndDashTest() throws Exception{
+        login();
+        driver.get("http://testing.cld.iba.by/web/guest/recruiting/candidates/-/candidates/createProfile");
         Helper.waitForTime(1);
-        Helper.setRequiredFields(name, surname, phone, email);
+        cp.typeName(name);
+        cp.typeSurname(surname);
+        cp.typePhone(phone);
+        cp.typeEmail(email);
         cp.typeEmail("iv-an@ivan_ivan.ivan");
         cp.clickSave();
+        Helper.waitForTime(2);
         Assert.assertEquals("iv-an@ivan_ivan.ivan",driver.findElement(By.xpath("//*[@id=\"primaryEmail\"]")).getText());
         Helper.waitForTime(1);
+    }
+
+    @Test
+    public void uploadFileUsingSelenium() throws Exception{
+        login();
+        driver.get("http://testing.cld.iba.by/web/guest/recruiting/candidates/-/candidates/createProfile");
+        cp.loadCV(getAbsolutePath("resources/resume.pdf"));
+        Helper.waitForTime(2);
+        cp.clickSave();
+        Helper.waitForTime(2);
+        Assert.assertTrue(driver.findElement(By.xpath("//*[@id=\"content\"]/div")).getText().contains("Рябцев Кирилл"));
+    }
+
+    @Test
+    public void uploadFileUsingRobot() {
+        login();
+        driver.get("http://testing.cld.iba.by/web/guest/recruiting/candidates/-/candidates/createProfile");
+        cp.clickAddAttachment();
+        sendFile(getAbsolutePath("resources/resume.pdf"));
+        Helper.waitForTime(2);
+        cp.typeName(name);
+        cp.typeSurname(surname);
+        cp.typePhone(phone);
+        cp.typeEmail(email);
+        Helper.waitForTime(1);
+        cp.clickSave();
+        Helper.waitForTime(1);
+        Assert.assertEquals("resume.pdf",driver.findElement(By.xpath("//*[@id=\"attachedFiles\"]/div/a")).getText());
+    }
+
+    @Test
+    public void uploadFileUsingSikuli() throws Exception {
+        final String noAvatar = "http://testing.cld.iba.by/TC-RecruitingAndOnboarding-portlet/common/css/images/no-avatar.jpg";
+        Pattern filePath = new Pattern("resources/sikuli/FilePath.JPG");
+        Pattern openButton = new Pattern("resources/sikuli/OpenButton.JPG");
+        login();
+        driver.get("http://testing.cld.iba.by/web/guest/recruiting/candidates/-/candidates/createProfile");
+        cp.clickChangeAvatar();
+        Screen screen = new Screen();
+        screen.wait(filePath, 20);
+        screen.type(filePath, getAbsolutePath("resources/human.png"));
+        screen.click(openButton);
+        Helper.waitForTime(3);
+        WebElement picture = driver.findElement(By.id("currentImage"));
+        Assert.assertNotEquals(picture.getAttribute("src"), noAvatar);
     }
 
 
@@ -130,9 +225,15 @@ public class CreateCandidateTest {
 
     @Test
     public void tooLongNameTest() throws Exception{
+        login();
+        driver.get("http://testing.cld.iba.by/web/guest/recruiting/candidates/-/candidates/createProfile");
         Helper.waitForTime(1);
-        Helper.setRequiredFields(name, surname, phone, email);
+        cp.typeName(name);
+        cp.typeSurname(surname);
+        cp.typePhone(phone);
+        cp.typeEmail(email);
         cp.typeName(Helper.generateRandomString(55, GeneratorMode.ALPHANUMERIC));
+        Helper.scrollUp();
         cp.clickSave();
         Assert.assertEquals(driver.findElement(By.xpath("//*[@class=\"maxLength\"]")).getText(),"Пожалуйста, введите не более 50 символов");
         Helper.waitForTime(1);
@@ -140,8 +241,13 @@ public class CreateCandidateTest {
 
     @Test
     public void emptyNameTest() throws Exception{
+        login();
+        driver.get("http://testing.cld.iba.by/web/guest/recruiting/candidates/-/candidates/createProfile");
         Helper.waitForTime(1);
-        Helper.setRequiredFields(name, surname, phone, email);
+        cp.typeName(name);
+        cp.typeSurname(surname);
+        cp.typePhone(phone);
+        cp.typeEmail(email);
         cp.typeName(" ");
         cp.clickSave();
         Assert.assertEquals(driver.findElement(By.xpath("//*[@class=\"required\"]")).getText(),"Обязательное поле");
@@ -150,8 +256,13 @@ public class CreateCandidateTest {
 
     @Test
     public void alphabeticalPhoneTest() throws Exception{
+        login();
+        driver.get("http://testing.cld.iba.by/web/guest/recruiting/candidates/-/candidates/createProfile");
         Helper.waitForTime(1);
-        Helper.setRequiredFields(name, surname, phone, email);
+        cp.typeName(name);
+        cp.typeSurname(surname);
+        cp.typePhone(phone);
+        cp.typeEmail(email);
         cp.typePhone(Helper.generateRandomString(10,GeneratorMode.ALPHA));
         cp.clickSave();
         Assert.assertEquals(driver.findElement(By.xpath("//*[@class=\"validateTelephone\"]")).getText(),"Неверный формат номера");
@@ -160,8 +271,13 @@ public class CreateCandidateTest {
 
     @Test
     public void alphabeticalEmailTest() throws Exception{
+        login();
+        driver.get("http://testing.cld.iba.by/web/guest/recruiting/candidates/-/candidates/createProfile");
         Helper.waitForTime(1);
-        Helper.setRequiredFields(name, surname, phone, email);
+        cp.typeName(name);
+        cp.typeSurname(surname);
+        cp.typePhone(phone);
+        cp.typeEmail(email);
         cp.typeEmail(Helper.generateRandomString(10,GeneratorMode.ALPHA));
         cp.clickSave();
         Assert.assertEquals(driver.findElement(By.xpath("//*[@class=\"email\"]")).getText(),"Неверный ввод");
@@ -170,8 +286,13 @@ public class CreateCandidateTest {
 
     @Test
     public void emptyEmailTest() throws Exception{
+        login();
+        driver.get("http://testing.cld.iba.by/web/guest/recruiting/candidates/-/candidates/createProfile");
         Helper.waitForTime(1);
-        Helper.setRequiredFields(name, surname, phone, email);
+        cp.typeName(name);
+        cp.typeSurname(surname);
+        cp.typePhone(phone);
+        cp.typeEmail(email);
         cp.typeEmail( " ");
         cp.clickSave();
         Assert.assertEquals(driver.findElement(By.xpath("//*[@class=\"email\"]")).getText(),"Неверный ввод");
@@ -180,8 +301,13 @@ public class CreateCandidateTest {
 
     @Test
     public void twoDotsEmailTest() throws Exception{
+        login();
+        driver.get("http://testing.cld.iba.by/web/guest/recruiting/candidates/-/candidates/createProfile");
         Helper.waitForTime(1);
-        Helper.setRequiredFields(name, surname, phone, email);
+        cp.typeName(name);
+        cp.typeSurname(surname);
+        cp.typePhone(phone);
+        cp.typeEmail(email);
         cp.typeEmail("ivan@ivan..com");
         cp.clickSave();
         Assert.assertEquals(driver.findElement(By.xpath("//*[@class=\"email\"]")).getText(),"Неверный ввод");
@@ -190,8 +316,13 @@ public class CreateCandidateTest {
 
     @Test
     public void twoAtEmailTest() throws Exception{
+        login();
+        driver.get("http://testing.cld.iba.by/web/guest/recruiting/candidates/-/candidates/createProfile");
         Helper.waitForTime(1);
-        Helper.setRequiredFields(name, surname, phone, email);
+        cp.typeName(name);
+        cp.typeSurname(surname);
+        cp.typePhone(phone);
+        cp.typeEmail(email);
         cp.typeEmail("ivan@@ivan.com");
         cp.clickSave();
         Assert.assertEquals(driver.findElement(By.xpath("//*[@class=\"email\"]")).getText(),"Неверный ввод");
@@ -202,9 +333,6 @@ public class CreateCandidateTest {
     @After
     public void deleteCandidate() throws Exception{
         Helper.waitForTime(1);
-        if (driver.findElement(By.xpath("//*[@id=\"content\"]/div")).getText().equals("Создание резюме")){
-            cp.clickCancel();
-        }
         if (driver.findElement(By.xpath("//*[@id=\"successMessage\"]")).getText().equals("Резюме было успешно сохранено")
                 || driver.findElement(By.xpath("//*[@id=\"content\"]/div")).getText().contains(name)) {
             Helper.waitForTime(1);
@@ -214,6 +342,9 @@ public class CreateCandidateTest {
             Helper.waitForTime(1);
         }
         Helper.waitForTime(1);
+        driver.findElement(By.xpath("//*[@id=\"heading\"]/ul/li[6]/a/img")).click();
     }
+
+
 
 }

@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a16b2f44-69a3-4856-a0d2-be15dec4b531" name="Default" comment="" />
+    <list default="true" id="a16b2f44-69a3-4856-a0d2-be15dec4b531" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/human.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/resume.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ru-RU-3-0.bdic" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/sikuli/FilePath.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/sikuli/OpenButton.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/drivers/chromedriver.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/edu/bsuir/driver/WebDriverSingleton.class" afterPath="$PROJECT_DIR$/target/test-classes/edu/bsuir/driver/WebDriverSingleton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/edu/bsuir/element/Element.class" afterPath="$PROJECT_DIR$/target/test-classes/edu/bsuir/element/Element.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/edu/bsuir/parser/Parser.class" afterPath="$PROJECT_DIR$/target/test-classes/edu/bsuir/parser/Parser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/edu/bsuir/test/CreateCandidateTest.class" afterPath="$PROJECT_DIR$/target/test-classes/edu/bsuir/test/CreateCandidateTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/edu/bsuir/test/DeleteCandidateTest.class" afterPath="$PROJECT_DIR$/target/test-classes/edu/bsuir/test/DeleteCandidateTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/edu/bsuir/test/EditCandidateTest.class" afterPath="$PROJECT_DIR$/target/test-classes/edu/bsuir/test/EditCandidateTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/edu/bsuir/test/FilterTest.class" afterPath="$PROJECT_DIR$/target/test-classes/edu/bsuir/test/FilterTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/edu/bsuir/test/SuitableVacancyTest.class" afterPath="$PROJECT_DIR$/target/test-classes/edu/bsuir/test/SuitableVacancyTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/edu/bsuir/util/helper/GeneratorMode.class" afterPath="$PROJECT_DIR$/target/test-classes/edu/bsuir/util/helper/GeneratorMode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/edu/bsuir/util/helper/Helper$1.class" afterPath="$PROJECT_DIR$/target/test-classes/edu/bsuir/util/helper/Helper$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/edu/bsuir/util/helper/Helper.class" afterPath="$PROJECT_DIR$/target/test-classes/edu/bsuir/util/helper/Helper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/edu/bsuir/web/Login.class" afterPath="$PROJECT_DIR$/target/test-classes/edu/bsuir/web/Login.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/edu/bsuir/web/element/CandidateProfileElement.class" afterPath="$PROJECT_DIR$/target/test-classes/edu/bsuir/web/element/CandidateProfileElement.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/edu/bsuir/web/element/CandidatesListElement.class" afterPath="$PROJECT_DIR$/target/test-classes/edu/bsuir/web/element/CandidatesListElement.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/edu/bsuir/web/element/CreateElement.class" afterPath="$PROJECT_DIR$/target/test-classes/edu/bsuir/web/element/CreateElement.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/edu/bsuir/web/element/EditElement.class" afterPath="$PROJECT_DIR$/target/test-classes/edu/bsuir/web/element/EditElement.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/edu/bsuir/web/element/LoginElements.class" afterPath="$PROJECT_DIR$/target/test-classes/edu/bsuir/web/element/LoginElements.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/edu/bsuir/web/page/CandidateProfilePage.class" afterPath="$PROJECT_DIR$/target/test-classes/edu/bsuir/web/page/CandidateProfilePage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/edu/bsuir/web/page/CandidatesListPage.class" afterPath="$PROJECT_DIR$/target/test-classes/edu/bsuir/web/page/CandidatesListPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/edu/bsuir/web/page/CreatePage.class" afterPath="$PROJECT_DIR$/target/test-classes/edu/bsuir/web/page/CreatePage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/edu/bsuir/web/page/EditPage.class" afterPath="$PROJECT_DIR$/target/test-classes/edu/bsuir/web/page/EditPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/edu/bsuir/web/page/LoginPage.class" afterPath="$PROJECT_DIR$/target/test-classes/edu/bsuir/web/page/LoginPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CandidateTCTest.iml" afterPath="$PROJECT_DIR$/CandidateTCTest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/edu/bsuir/driver/WebDriverSingleton.java" afterPath="$PROJECT_DIR$/src/test/java/edu/bsuir/driver/WebDriverSingleton.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/edu/bsuir/element/Element.java" afterPath="$PROJECT_DIR$/src/test/java/edu/bsuir/element/Element.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/edu/bsuir/test/CreateCandidateTest.java" afterPath="$PROJECT_DIR$/src/test/java/edu/bsuir/test/CreateCandidateTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/edu/bsuir/web/element/CreateElement.java" afterPath="$PROJECT_DIR$/src/test/java/edu/bsuir/web/element/CreateElement.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/edu/bsuir/web/page/CreatePage.java" afterPath="$PROJECT_DIR$/src/test/java/edu/bsuir/web/page/CreatePage.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,23 +66,9 @@
       <file leaf-file-name="CandidateProfileElement.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/element/CandidateProfileElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="153">
               <caret line="10" column="110" lean-forward="false" selection-start-line="10" selection-start-column="110" selection-end-line="10" selection-end-column="110" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CandidatesListElement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/element/CandidatesListElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -52,38 +76,8 @@
       <file leaf-file-name="CreateElement.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/element/CreateElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EditElement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/element/EditElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginElements.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/element/LoginElements.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CandidateProfilePage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/page/CandidateProfilePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" column="46" lean-forward="true" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+            <state relative-caret-position="238">
+              <caret line="24" column="103" lean-forward="true" selection-start-line="24" selection-start-column="103" selection-end-line="24" selection-end-column="103" />
               <folding />
             </state>
           </provider>
@@ -92,12 +86,11 @@
       <file leaf-file-name="CandidatesListPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/page/CandidatesListPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
                 <element signature="method#selectExperienceByValue#0;class#CandidatesListPage#0" expanded="false" />
-                <element signature="e#1250#1251#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,40 +99,83 @@
       <file leaf-file-name="CreatePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/page/CreatePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+            <state relative-caret-position="170">
+              <caret line="64" column="44" lean-forward="true" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1135#1136#0" expanded="true" />
-                <element signature="e#1183#1184#0" expanded="true" />
+                <element signature="method#selectEducationByValue#0;class#CreatePage#0" expanded="false" />
+                <element signature="e#1901#1902#0" expanded="true" />
+                <element signature="e#1952#1953#0" expanded="true" />
+                <element signature="e#1989#1990#0" expanded="true" />
+                <element signature="e#2044#2045#0" expanded="true" />
+                <element signature="e#2082#2083#0" expanded="true" />
+                <element signature="e#2134#2135#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EditPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/page/EditPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-              <folding>
-                <element signature="method#selectEducationByValue#0;class#EditPage#0" expanded="false" />
-                <element signature="method#clickEnglish#0;class#EditPage#0" expanded="false" />
-                <element signature="method#clickMSAccess#0;class#EditPage#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/page/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="221">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
-                <element signature="e#634#635#0" expanded="true" />
-                <element signature="e#684#685#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateCandidateTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/test/CreateCandidateTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1615">
+              <caret line="40" column="58" lean-forward="false" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Element.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/element/Element.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CandidateProfilePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/page/CandidateProfilePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -154,6 +190,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -165,19 +204,14 @@
         <option value="$PROJECT_DIR$/src/main/java/driver/WebDriverSingleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/element/Element.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/WebDriverSingleton.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/driver/WebDriverSingleton.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/parser/Parser.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/web/element/LoginElements.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/web/Login.java" />
         <option value="$PROJECT_DIR$/data.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/web/page/CreatePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/web/page/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/util/helper/GeneratorMode.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/web/element/CandidateElement.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/web/page/CandidatePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/element/Element.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/web/element/CreateElement.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/web/element/CandidatesListElement.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/web/element/EditElement.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/web/page/EditPage.java" />
@@ -189,6 +223,11 @@
         <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/web/page/CandidatesListPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/test/DeleteCandidateTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/test/EditCandidateTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/driver/WebDriverSingleton.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/element/Element.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/web/element/CreateElement.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/web/page/CreatePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/test/CreateCandidateTest.java" />
       </list>
     </option>
@@ -227,9 +266,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -503,8 +542,18 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="CandidateTCTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CandidateTCTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -530,6 +579,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -537,114 +587,13 @@
       <recent name="edu.bsuir.web.page" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Acer\Desktop\CandidateTCTest\resources" />
+      <recent name="C:\Users\Acer\Desktop\CandidateTCTest\lib\drivers" />
+      <recent name="C:\Users\Acer\Desktop\CandidateTCTest" />
       <recent name="C:\Users\Acer\Desktop\TalentConstructor\CandidateTCTest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CreateCandidateTest">
-    <configuration default="false" name="FilterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="edu.bsuir.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="CandidateTCTest" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="edu.bsuir.test" />
-      <option name="MAIN_CLASS_NAME" value="edu.bsuir.test.FilterTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="SuitableVacancyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="edu.bsuir.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="CandidateTCTest" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="edu.bsuir.test" />
-      <option name="MAIN_CLASS_NAME" value="edu.bsuir.test.SuitableVacancyTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="DeleteCandidateTest.deleteCandidate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="edu.bsuir.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="CandidateTCTest" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="edu.bsuir.test" />
-      <option name="MAIN_CLASS_NAME" value="edu.bsuir.test.DeleteCandidateTest" />
-      <option name="METHOD_NAME" value="deleteCandidate" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="EditCandidateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="edu.bsuir.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="CandidateTCTest" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="edu.bsuir.test" />
-      <option name="MAIN_CLASS_NAME" value="edu.bsuir.test.EditCandidateTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.CreateCandidateTest.nameWithAnyCharachtersTest">
     <configuration default="false" name="CreateCandidateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -659,6 +608,110 @@
       <option name="MAIN_CLASS_NAME" value="edu.bsuir.test.CreateCandidateTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CreateCandidateTest.twoAtEmailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="edu.bsuir.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CandidateTCTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.bsuir.test" />
+      <option name="MAIN_CLASS_NAME" value="edu.bsuir.test.CreateCandidateTest" />
+      <option name="METHOD_NAME" value="twoAtEmailTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CreateCandidateTest.createCandidateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="edu.bsuir.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CandidateTCTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.bsuir.test" />
+      <option name="MAIN_CLASS_NAME" value="edu.bsuir.test.CreateCandidateTest" />
+      <option name="METHOD_NAME" value="createCandidateTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CreateCandidateTest.uploadFileUsingSikuli" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="edu.bsuir.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CandidateTCTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.bsuir.test" />
+      <option name="MAIN_CLASS_NAME" value="edu.bsuir.test.CreateCandidateTest" />
+      <option name="METHOD_NAME" value="uploadFileUsingSikuli" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CreateCandidateTest.nameWithAnyCharachtersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="edu.bsuir.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CandidateTCTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.bsuir.test" />
+      <option name="MAIN_CLASS_NAME" value="edu.bsuir.test.CreateCandidateTest" />
+      <option name="METHOD_NAME" value="nameWithAnyCharachtersTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -1052,19 +1105,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.FilterTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SuitableVacancyTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DeleteCandidateTest.deleteCandidate" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.EditCandidateTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CreateCandidateTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CreateCandidateTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CreateCandidateTest.twoAtEmailTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CreateCandidateTest.createCandidateTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CreateCandidateTest.uploadFileUsingSikuli" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CreateCandidateTest.nameWithAnyCharachtersTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CreateCandidateTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.EditCandidateTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SuitableVacancyTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FilterTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DeleteCandidateTest.deleteCandidate" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CreateCandidateTest.nameWithAnyCharachtersTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CreateCandidateTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CreateCandidateTest.uploadFileUsingSikuli" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CreateCandidateTest.createCandidateTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CreateCandidateTest.twoAtEmailTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1084,43 +1137,47 @@
       <workItem from="1522999044484" duration="20176000" />
       <workItem from="1523088580974" duration="23590000" />
       <workItem from="1523169391612" duration="23233000" />
+      <workItem from="1523287429893" duration="13151000" />
+      <workItem from="1523339489289" duration="175000" />
+      <workItem from="1523340083138" duration="283000" />
+      <workItem from="1523340514486" duration="6281000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CreateCandidateTest - 2018.04.08 at 15h 47m 21s.xml">
+    <history-entry file="CreateCandidateTest - 2018.04.10 at 11h 02m 24s.xml">
       <configuration name="CreateCandidateTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CreateCandidateTest - 2018.04.08 at 16h 08m 04s.xml">
+    <history-entry file="CreateCandidateTest - 2018.04.10 at 11h 07m 41s.xml">
       <configuration name="CreateCandidateTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DeleteCandidateTest_deleteCandidate - 2018.04.08 at 15h 36m 26s.xml">
-      <configuration name="DeleteCandidateTest.deleteCandidate" configurationId="JUnit" />
+    <history-entry file="CreateCandidateTest - 2018.04.10 at 11h 24m 22s.xml">
+      <configuration name="CreateCandidateTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EditCandidateTest - 2018.04.08 at 15h 39m 06s.xml">
-      <configuration name="EditCandidateTest" configurationId="JUnit" />
+    <history-entry file="CreateCandidateTest_createCandidateTest - 2018.04.10 at 11h 08m 19s.xml">
+      <configuration name="CreateCandidateTest.createCandidateTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EditCandidateTest - 2018.04.08 at 15h 39m 39s.xml">
-      <configuration name="EditCandidateTest" configurationId="JUnit" />
+    <history-entry file="CreateCandidateTest_createCandidateTest - 2018.04.10 at 11h 10m 39s.xml">
+      <configuration name="CreateCandidateTest.createCandidateTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EditCandidateTest - 2018.04.08 at 15h 40m 07s.xml">
-      <configuration name="EditCandidateTest" configurationId="JUnit" />
+    <history-entry file="CreateCandidateTest_nameWithAnyCharachtersTest - 2018.04.10 at 11h 25m 32s.xml">
+      <configuration name="CreateCandidateTest.nameWithAnyCharachtersTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EditCandidateTest - 2018.04.08 at 15h 42m 35s.xml">
-      <configuration name="EditCandidateTest" configurationId="JUnit" />
+    <history-entry file="CreateCandidateTest_tooLongNameTest - 2018.04.10 at 11h 01m 49s.xml">
+      <configuration name="CreateCandidateTest.tooLongNameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EditCandidateTest - 2018.04.08 at 15h 44m 44s.xml">
-      <configuration name="EditCandidateTest" configurationId="JUnit" />
+    <history-entry file="CreateCandidateTest_twoAtEmailTest - 2018.04.10 at 11h 03m 30s.xml">
+      <configuration name="CreateCandidateTest.twoAtEmailTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FilterTest - 2018.04.08 at 15h 37m 27s.xml">
-      <configuration name="FilterTest" configurationId="JUnit" />
+    <history-entry file="CreateCandidateTest_twoAtEmailTest - 2018.04.10 at 11h 04m 19s.xml">
+      <configuration name="CreateCandidateTest.twoAtEmailTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SuitableVacancyTest - 2018.04.08 at 15h 38m 36s.xml">
-      <configuration name="SuitableVacancyTest" configurationId="JUnit" />
+    <history-entry file="CreateCandidateTest_uploadFileUsingSikuli - 2018.04.10 at 11h 14m 19s.xml">
+      <configuration name="CreateCandidateTest.uploadFileUsingSikuli" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103531000" />
+    <option name="totallyTimeSpent" value="123421000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1144,15 +1201,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30441898" sideWeight="0.52723145" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30441898" sideWeight="0.47276855" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2549168" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2632375" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1164,6 +1220,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1205,7 +1262,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1219,9 +1276,50 @@
         <state relative-caret-position="442">
           <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#361#362#0" expanded="false" />
+            <element signature="e#404#405#0" expanded="false" />
+            <element signature="e#449#450#0" expanded="false" />
+            <element signature="e#498#499#0" expanded="false" />
+            <element signature="e#549#550#0" expanded="false" />
+            <element signature="e#604#605#0" expanded="false" />
+            <element signature="e#645#646#0" expanded="false" />
+            <element signature="e#690#691#0" expanded="false" />
+            <element signature="e#731#732#0" expanded="false" />
+            <element signature="e#776#777#0" expanded="false" />
+            <element signature="e#817#818#0" expanded="false" />
+            <element signature="e#862#863#0" expanded="false" />
+            <element signature="e#907#908#0" expanded="false" />
+            <element signature="e#956#957#0" expanded="false" />
+            <element signature="e#995#996#0" expanded="false" />
+            <element signature="e#1038#1039#0" expanded="false" />
+            <element signature="e#1073#1074#0" expanded="false" />
+            <element signature="e#1119#1120#0" expanded="false" />
+            <element signature="e#1156#1157#0" expanded="false" />
+            <element signature="e#1197#1198#0" expanded="false" />
+            <element signature="e#1238#1239#0" expanded="false" />
+            <element signature="e#1283#1284#0" expanded="false" />
+            <element signature="e#1322#1323#0" expanded="false" />
+            <element signature="e#1365#1366#0" expanded="false" />
             <element signature="method#selectEducationByValue#0;class#EditPage#0" expanded="false" />
+            <element signature="e#1584#1585#0" expanded="false" />
+            <element signature="e#1643#1644#0" expanded="false" />
+            <element signature="e#1674#1675#0" expanded="false" />
+            <element signature="e#1716#1717#0" expanded="false" />
+            <element signature="e#1745#1746#0" expanded="false" />
+            <element signature="e#1785#1786#0" expanded="false" />
+            <element signature="e#1826#1827#0" expanded="false" />
+            <element signature="e#1877#1878#0" expanded="false" />
+            <element signature="e#1912#1913#0" expanded="false" />
+            <element signature="e#1957#1958#0" expanded="false" />
             <element signature="method#clickEnglish#0;class#EditPage#0" expanded="false" />
+            <element signature="e#2118#2119#0" expanded="false" />
+            <element signature="e#2162#2163#0" expanded="false" />
             <element signature="method#clickMSAccess#0;class#EditPage#0" expanded="false" />
+            <element signature="e#2319#2320#0" expanded="false" />
+            <element signature="e#2363#2364#0" expanded="false" />
+            <element signature="e#2391#2392#0" expanded="false" />
+            <element signature="e#2436#2437#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1231,9 +1329,13 @@
         <state relative-caret-position="102">
           <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#548#549#0" expanded="false" />
             <element signature="method#selectEducationByValue#0;class#CreatePage#0" expanded="false" />
+            <element signature="e#1901#1902#0" expanded="true" />
+            <element signature="e#1952#1953#0" expanded="true" />
+            <element signature="e#1989#1990#0" expanded="true" />
+            <element signature="e#2044#2045#0" expanded="true" />
+            <element signature="e#2082#2083#0" expanded="true" />
+            <element signature="e#2134#2135#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1259,7 +1361,7 @@
         <state relative-caret-position="544">
           <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1268,7 +1370,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="62" lean-forward="false" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1276,7 +1380,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#583#584#0" expanded="false" />
+            <element signature="e#651#652#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1284,9 +1392,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1303,9 +1409,50 @@
         <state relative-caret-position="493">
           <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#361#362#0" expanded="false" />
+            <element signature="e#404#405#0" expanded="false" />
+            <element signature="e#449#450#0" expanded="false" />
+            <element signature="e#498#499#0" expanded="false" />
+            <element signature="e#549#550#0" expanded="false" />
+            <element signature="e#604#605#0" expanded="false" />
+            <element signature="e#645#646#0" expanded="false" />
+            <element signature="e#690#691#0" expanded="false" />
+            <element signature="e#731#732#0" expanded="false" />
+            <element signature="e#776#777#0" expanded="false" />
+            <element signature="e#817#818#0" expanded="false" />
+            <element signature="e#862#863#0" expanded="false" />
+            <element signature="e#907#908#0" expanded="false" />
+            <element signature="e#956#957#0" expanded="false" />
+            <element signature="e#995#996#0" expanded="false" />
+            <element signature="e#1038#1039#0" expanded="false" />
+            <element signature="e#1073#1074#0" expanded="false" />
+            <element signature="e#1119#1120#0" expanded="false" />
+            <element signature="e#1156#1157#0" expanded="false" />
+            <element signature="e#1197#1198#0" expanded="false" />
+            <element signature="e#1238#1239#0" expanded="false" />
+            <element signature="e#1283#1284#0" expanded="false" />
+            <element signature="e#1322#1323#0" expanded="false" />
+            <element signature="e#1365#1366#0" expanded="false" />
             <element signature="method#selectEducationByValue#0;class#EditPage#0" expanded="false" />
+            <element signature="e#1584#1585#0" expanded="false" />
+            <element signature="e#1643#1644#0" expanded="false" />
+            <element signature="e#1674#1675#0" expanded="false" />
+            <element signature="e#1716#1717#0" expanded="false" />
+            <element signature="e#1745#1746#0" expanded="false" />
+            <element signature="e#1785#1786#0" expanded="false" />
+            <element signature="e#1826#1827#0" expanded="false" />
+            <element signature="e#1877#1878#0" expanded="false" />
+            <element signature="e#1912#1913#0" expanded="false" />
+            <element signature="e#1957#1958#0" expanded="false" />
             <element signature="method#clickEnglish#0;class#EditPage#0" expanded="false" />
+            <element signature="e#2118#2119#0" expanded="false" />
+            <element signature="e#2162#2163#0" expanded="false" />
             <element signature="method#clickMSAccess#0;class#EditPage#0" expanded="false" />
+            <element signature="e#2319#2320#0" expanded="false" />
+            <element signature="e#2363#2364#0" expanded="false" />
+            <element signature="e#2391#2392#0" expanded="false" />
+            <element signature="e#2436#2437#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1314,7 +1461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1323,9 +1469,13 @@
         <state relative-caret-position="102">
           <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#548#549#0" expanded="false" />
             <element signature="method#selectEducationByValue#0;class#CreatePage#0" expanded="false" />
+            <element signature="e#1901#1902#0" expanded="true" />
+            <element signature="e#1952#1953#0" expanded="true" />
+            <element signature="e#1989#1990#0" expanded="true" />
+            <element signature="e#2044#2045#0" expanded="true" />
+            <element signature="e#2082#2083#0" expanded="true" />
+            <element signature="e#2134#2135#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1351,7 +1501,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1360,9 +1510,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1389,8 +1537,7 @@
         <state relative-caret-position="119">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1399,7 +1546,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#583#584#0" expanded="false" />
+            <element signature="e#651#652#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1407,7 +1558,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1416,23 +1569,56 @@
         <state relative-caret-position="187">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#361#362#0" expanded="false" />
+            <element signature="e#404#405#0" expanded="false" />
+            <element signature="e#449#450#0" expanded="false" />
+            <element signature="e#498#499#0" expanded="false" />
+            <element signature="e#549#550#0" expanded="false" />
+            <element signature="e#604#605#0" expanded="false" />
+            <element signature="e#645#646#0" expanded="false" />
+            <element signature="e#690#691#0" expanded="false" />
+            <element signature="e#731#732#0" expanded="false" />
+            <element signature="e#776#777#0" expanded="false" />
+            <element signature="e#817#818#0" expanded="false" />
+            <element signature="e#862#863#0" expanded="false" />
+            <element signature="e#907#908#0" expanded="false" />
+            <element signature="e#956#957#0" expanded="false" />
+            <element signature="e#995#996#0" expanded="false" />
+            <element signature="e#1038#1039#0" expanded="false" />
+            <element signature="e#1073#1074#0" expanded="false" />
+            <element signature="e#1119#1120#0" expanded="false" />
+            <element signature="e#1156#1157#0" expanded="false" />
+            <element signature="e#1197#1198#0" expanded="false" />
+            <element signature="e#1238#1239#0" expanded="false" />
+            <element signature="e#1283#1284#0" expanded="false" />
+            <element signature="e#1322#1323#0" expanded="false" />
+            <element signature="e#1365#1366#0" expanded="false" />
             <element signature="method#selectEducationByValue#0;class#EditPage#0" expanded="false" />
+            <element signature="e#1584#1585#0" expanded="false" />
+            <element signature="e#1643#1644#0" expanded="false" />
+            <element signature="e#1674#1675#0" expanded="false" />
+            <element signature="e#1716#1717#0" expanded="false" />
+            <element signature="e#1745#1746#0" expanded="false" />
+            <element signature="e#1785#1786#0" expanded="false" />
+            <element signature="e#1826#1827#0" expanded="false" />
+            <element signature="e#1877#1878#0" expanded="false" />
+            <element signature="e#1912#1913#0" expanded="false" />
+            <element signature="e#1957#1958#0" expanded="false" />
             <element signature="method#clickEnglish#0;class#EditPage#0" expanded="false" />
+            <element signature="e#2118#2119#0" expanded="false" />
+            <element signature="e#2162#2163#0" expanded="false" />
             <element signature="method#clickMSAccess#0;class#EditPage#0" expanded="false" />
+            <element signature="e#2319#2320#0" expanded="false" />
+            <element signature="e#2363#2364#0" expanded="false" />
+            <element signature="e#2391#2392#0" expanded="false" />
+            <element signature="e#2436#2437#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/driver/WebDriverSingleton.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/element/Element.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1445,14 +1631,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/page/DeletePage.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/page/FilterPage.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/element/FilterElement.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/util/helper/Helper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1465,7 +1643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1474,7 +1651,7 @@
         <state relative-caret-position="421">
           <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1484,7 +1661,7 @@
         <state relative-caret-position="157">
           <caret line="95" column="30" lean-forward="true" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1494,7 +1671,7 @@
         <state relative-caret-position="357">
           <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1507,35 +1684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/test/CreateCandidateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-191">
-          <caret line="190" column="9" lean-forward="true" selection-start-line="190" selection-start-column="9" selection-end-line="190" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/driver/WebDriverSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/element/Element.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/parser/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-224">
@@ -1544,39 +1692,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/element/CandidateProfileElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="110" lean-forward="false" selection-start-line="10" selection-start-column="110" selection-end-line="10" selection-end-column="110" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/element/CandidatesListElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/element/CreateElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/element/EditElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="561">
+          <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1584,61 +1714,168 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/page/CandidateProfilePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="46" lean-forward="true" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/page/CandidatesListPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#selectExperienceByValue#0;class#CandidatesListPage#0" expanded="false" />
-            <element signature="e#1250#1251#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/page/CreatePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1135#1136#0" expanded="true" />
-            <element signature="e#1183#1184#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#583#584#0" expanded="false" />
+            <element signature="e#651#652#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/page/EditPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+        <state relative-caret-position="578">
+          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#361#362#0" expanded="false" />
+            <element signature="e#404#405#0" expanded="false" />
+            <element signature="e#449#450#0" expanded="false" />
+            <element signature="e#498#499#0" expanded="false" />
+            <element signature="e#549#550#0" expanded="false" />
+            <element signature="e#604#605#0" expanded="false" />
+            <element signature="e#645#646#0" expanded="false" />
+            <element signature="e#690#691#0" expanded="false" />
+            <element signature="e#731#732#0" expanded="false" />
+            <element signature="e#776#777#0" expanded="false" />
+            <element signature="e#817#818#0" expanded="false" />
+            <element signature="e#862#863#0" expanded="false" />
+            <element signature="e#907#908#0" expanded="false" />
+            <element signature="e#956#957#0" expanded="false" />
+            <element signature="e#995#996#0" expanded="false" />
+            <element signature="e#1038#1039#0" expanded="false" />
+            <element signature="e#1073#1074#0" expanded="false" />
+            <element signature="e#1119#1120#0" expanded="false" />
+            <element signature="e#1156#1157#0" expanded="false" />
+            <element signature="e#1197#1198#0" expanded="false" />
+            <element signature="e#1238#1239#0" expanded="false" />
+            <element signature="e#1283#1284#0" expanded="false" />
+            <element signature="e#1322#1323#0" expanded="false" />
+            <element signature="e#1365#1366#0" expanded="false" />
             <element signature="method#selectEducationByValue#0;class#EditPage#0" expanded="false" />
+            <element signature="e#1584#1585#0" expanded="false" />
+            <element signature="e#1643#1644#0" expanded="false" />
+            <element signature="e#1674#1675#0" expanded="false" />
+            <element signature="e#1716#1717#0" expanded="false" />
+            <element signature="e#1745#1746#0" expanded="false" />
+            <element signature="e#1785#1786#0" expanded="false" />
+            <element signature="e#1826#1827#0" expanded="false" />
+            <element signature="e#1877#1878#0" expanded="false" />
+            <element signature="e#1912#1913#0" expanded="false" />
+            <element signature="e#1957#1958#0" expanded="false" />
             <element signature="method#clickEnglish#0;class#EditPage#0" expanded="false" />
+            <element signature="e#2118#2119#0" expanded="false" />
+            <element signature="e#2162#2163#0" expanded="false" />
             <element signature="method#clickMSAccess#0;class#EditPage#0" expanded="false" />
+            <element signature="e#2319#2320#0" expanded="false" />
+            <element signature="e#2363#2364#0" expanded="false" />
+            <element signature="e#2391#2392#0" expanded="false" />
+            <element signature="e#2436#2437#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/driver/WebDriverSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/page/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="221">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/element/CandidateProfileElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="110" lean-forward="false" selection-start-line="10" selection-start-column="110" selection-end-line="10" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/page/CandidatesListPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="method#selectExperienceByValue#0;class#CandidatesListPage#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/element/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/page/CandidateProfilePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/element/CreateElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="24" column="103" lean-forward="true" selection-start-line="24" selection-start-column="103" selection-end-line="24" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/page/CreatePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="64" column="44" lean-forward="true" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
+          <folding>
+            <element signature="method#selectEducationByValue#0;class#CreatePage#0" expanded="false" />
+            <element signature="e#1901#1902#0" expanded="true" />
+            <element signature="e#1952#1953#0" expanded="true" />
+            <element signature="e#1989#1990#0" expanded="true" />
+            <element signature="e#2044#2045#0" expanded="true" />
+            <element signature="e#2082#2083#0" expanded="true" />
+            <element signature="e#2134#2135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/test/CreateCandidateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1615">
+          <caret line="40" column="58" lean-forward="false" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
