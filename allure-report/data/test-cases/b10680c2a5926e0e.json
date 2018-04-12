@@ -1,0 +1,172 @@
+{
+  "uid" : "b10680c2a5926e0e",
+  "name" : "Создание кандидата только с буквами в поле Email",
+  "fullName" : "edu.bsuir.test.CreateCandidateTest.alphabeticalEmailTest",
+  "historyId" : "bb91cffecec8958658ca803ecd608750",
+  "time" : {
+    "start" : 1523547387942,
+    "stop" : 1523547397129,
+    "duration" : 9187
+  },
+  "status" : "passed",
+  "description" : "Создание кандидата только с буквами в поле Email за главного рекрутера",
+  "descriptionHtml" : "<p>Создание кандидата только с буквами в поле Email за главного рекрутера</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Логинимся в систему",
+      "time" : {
+        "start" : 1523547387944,
+        "stop" : 1523547390348,
+        "duration" : 2404
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Вводим в поле Имя Иван",
+      "time" : {
+        "start" : 1523547392376,
+        "stop" : 1523547392501,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Иван"
+      } ]
+    }, {
+      "name" : "Вводим в поле Фамилия Соколов",
+      "time" : {
+        "start" : 1523547392501,
+        "stop" : 1523547392643,
+        "duration" : 142
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "surname",
+        "value" : "Соколов"
+      } ]
+    }, {
+      "name" : "Вводим в поле Телефон 123456789",
+      "time" : {
+        "start" : 1523547392643,
+        "stop" : 1523547392801,
+        "duration" : 158
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "phone",
+        "value" : "123456789"
+      } ]
+    }, {
+      "name" : "Вводим в поле Еmail qwe@gmail.com",
+      "time" : {
+        "start" : 1523547392801,
+        "stop" : 1523547392988,
+        "duration" : 187
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "qwe@gmail.com"
+      } ]
+    }, {
+      "name" : "Вводим в поле Еmail lnNaUHJFZn",
+      "time" : {
+        "start" : 1523547392988,
+        "stop" : 1523547393113,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "lnNaUHJFZn"
+      } ]
+    }, {
+      "name" : "Нажимаем 'Сохранить' ",
+      "time" : {
+        "start" : 1523547393114,
+        "stop" : 1523547393806,
+        "duration" : 692
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.CreateCandidateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "alphabeticalEmailTest"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.CreateCandidateTest"
+  }, {
+    "name" : "host",
+    "value" : "Home-pc"
+  }, {
+    "name" : "thread",
+    "value" : "10884@Home-pc.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Подбор и адаптация"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 1 – Создание кандидата"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "critical",
+    "categories" : [ ]
+  }
+}

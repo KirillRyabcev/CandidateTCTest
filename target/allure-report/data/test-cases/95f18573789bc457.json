@@ -1,0 +1,202 @@
+{
+  "uid" : "95f18573789bc457",
+  "name" : "Появление чатично подходящих вакансий",
+  "fullName" : "edu.bsuir.test.SuitableVacancyTest.partlySuitableVacancyTest",
+  "historyId" : "37eec14cbc4334573973175ac0f32b06",
+  "time" : {
+    "start" : 1523547572827,
+    "stop" : 1523547596917,
+    "duration" : 24090
+  },
+  "status" : "passed",
+  "description" : "Появление частично подходящих вакансий по заданным компетенциям",
+  "descriptionHtml" : "<p>Появление частично подходящих вакансий по заданным компетенциям</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Логинимся в систему",
+      "time" : {
+        "start" : 1523547572827,
+        "stop" : 1523547575240,
+        "duration" : 2413
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Переходим на страницу кандидатов",
+      "time" : {
+        "start" : 1523547575240,
+        "stop" : 1523547579190,
+        "duration" : 3950
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Вводим текст в поле поиска",
+      "time" : {
+        "start" : 1523547581202,
+        "stop" : 1523547581360,
+        "duration" : 158
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "search",
+        "value" : "Петров"
+      } ]
+    }, {
+      "name" : "Нажимаем на первого кандидата в списке",
+      "time" : {
+        "start" : 1523547583361,
+        "stop" : 1523547584417,
+        "duration" : 1056
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем на кнопку 'Редактировать' ",
+      "time" : {
+        "start" : 1523547585421,
+        "stop" : 1523547585494,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем кнопку 'Редактировать компетенции' ",
+      "time" : {
+        "start" : 1523547585494,
+        "stop" : 1523547585686,
+        "duration" : 192
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем на список 'Иностранные языки' ",
+      "time" : {
+        "start" : 1523547585687,
+        "stop" : 1523547586176,
+        "duration" : 489
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем на элемент списка 'Английский язык' ",
+      "time" : {
+        "start" : 1523547588177,
+        "stop" : 1523547588247,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем на кнопку ОК",
+      "time" : {
+        "start" : 1523547590255,
+        "stop" : 1523547590385,
+        "duration" : 130
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем кнопку 'Сохранить' ",
+      "time" : {
+        "start" : 1523547592415,
+        "stop" : 1523547592608,
+        "duration" : 193
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 10,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.SuitableVacancyTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "partlySuitableVacancyTest"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.SuitableVacancyTest"
+  }, {
+    "name" : "host",
+    "value" : "Home-pc"
+  }, {
+    "name" : "thread",
+    "value" : "10884@Home-pc.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Подбор и адаптация"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 5 – Появление вакансий"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "minor",
+    "categories" : [ ]
+  }
+}

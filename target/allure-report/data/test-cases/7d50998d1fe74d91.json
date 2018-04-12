@@ -1,0 +1,244 @@
+{
+  "uid" : "7d50998d1fe74d91",
+  "name" : "Появление подходящих вакансий",
+  "fullName" : "edu.bsuir.test.SuitableVacancyTest.suitableVacancyTest",
+  "historyId" : "e528ab71c25d17005d0537c79db73073",
+  "time" : {
+    "start" : 1523547596923,
+    "stop" : 1523547626788,
+    "duration" : 29865
+  },
+  "status" : "passed",
+  "description" : "Появление подходящих вакансий по заданным компетенциям",
+  "descriptionHtml" : "<p>Появление подходящих вакансий по заданным компетенциям</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Логинимся в систему",
+      "time" : {
+        "start" : 1523547596923,
+        "stop" : 1523547599776,
+        "duration" : 2853
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Переходим на страницу кандидатов",
+      "time" : {
+        "start" : 1523547599777,
+        "stop" : 1523547603696,
+        "duration" : 3919
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Вводим текст в поле поиска",
+      "time" : {
+        "start" : 1523547605708,
+        "stop" : 1523547605875,
+        "duration" : 167
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "search",
+        "value" : "Петров"
+      } ]
+    }, {
+      "name" : "Нажимаем на первого кандидата в списке",
+      "time" : {
+        "start" : 1523547607876,
+        "stop" : 1523547609639,
+        "duration" : 1763
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем на кнопку 'Редактировать' ",
+      "time" : {
+        "start" : 1523547610643,
+        "stop" : 1523547610731,
+        "duration" : 88
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем кнопку 'Редактировать компетенции' ",
+      "time" : {
+        "start" : 1523547610731,
+        "stop" : 1523547610939,
+        "duration" : 208
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем на список 'Иностранные языки' ",
+      "time" : {
+        "start" : 1523547610939,
+        "stop" : 1523547611367,
+        "duration" : 428
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем на элемент списка 'Английский язык' ",
+      "time" : {
+        "start" : 1523547613369,
+        "stop" : 1523547613450,
+        "duration" : 81
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем на список 'MS Office' ",
+      "time" : {
+        "start" : 1523547615451,
+        "stop" : 1523547615551,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем на элемент списка 'MS Access' ",
+      "time" : {
+        "start" : 1523547617558,
+        "stop" : 1523547617638,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем на элемент списка 'MS Access' ",
+      "time" : {
+        "start" : 1523547617638,
+        "stop" : 1523547617674,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем на кнопку ОК",
+      "time" : {
+        "start" : 1523547619675,
+        "stop" : 1523547619834,
+        "duration" : 159
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем кнопку 'Сохранить' ",
+      "time" : {
+        "start" : 1523547621856,
+        "stop" : 1523547622473,
+        "duration" : 617
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 13,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.SuitableVacancyTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "suitableVacancyTest"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.SuitableVacancyTest"
+  }, {
+    "name" : "host",
+    "value" : "Home-pc"
+  }, {
+    "name" : "thread",
+    "value" : "10884@Home-pc.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Подбор и адаптация"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 5 – Появление вакансий"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "minor",
+    "categories" : [ ]
+  }
+}

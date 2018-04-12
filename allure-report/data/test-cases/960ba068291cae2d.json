@@ -1,0 +1,177 @@
+{
+  "uid" : "960ba068291cae2d",
+  "name" : "Вводим в поле Имя количество символов > 50",
+  "fullName" : "edu.bsuir.test.EditCandidateTest.longNameTest",
+  "historyId" : "296f143cc305fd1b299fe259f6921d35",
+  "time" : {
+    "start" : 1523547472258,
+    "stop" : 1523547490333,
+    "duration" : 18075
+  },
+  "status" : "passed",
+  "description" : "Вводим в поле Имя количество символов > 50",
+  "descriptionHtml" : "<p>Вводим в поле Имя количество символов &gt; 50</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Логинимся в систему",
+      "time" : {
+        "start" : 1523547472258,
+        "stop" : 1523547475752,
+        "duration" : 3494
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Переходим на страницу кандидатов",
+      "time" : {
+        "start" : 1523547475752,
+        "stop" : 1523547479715,
+        "duration" : 3963
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Вводим текст в поле поиска",
+      "time" : {
+        "start" : 1523547480729,
+        "stop" : 1523547480848,
+        "duration" : 119
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "search",
+        "value" : "Петров"
+      } ]
+    }, {
+      "name" : "Нажимаем на первого кандидата в списке",
+      "time" : {
+        "start" : 1523547481850,
+        "stop" : 1523547483047,
+        "duration" : 1197
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем на кнопку 'Редактировать' ",
+      "time" : {
+        "start" : 1523547484047,
+        "stop" : 1523547484124,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Вводим в поле фамилия 0ZXenfHeQutFAPSFoeu2sRN9gGmmAl5v0pdYXKZTu98fuIgJvDBvA5O",
+      "time" : {
+        "start" : 1523547485125,
+        "stop" : 1523547485721,
+        "duration" : 596
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "surname",
+        "value" : "0ZXenfHeQutFAPSFoeu2sRN9gGmmAl5v0pdYXKZTu98fuIgJvDBvA5O"
+      } ]
+    }, {
+      "name" : "Нажимаем кнопку 'Сохранить' ",
+      "time" : {
+        "start" : 1523547485721,
+        "stop" : 1523547485917,
+        "duration" : 196
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем кнопку 'Отменить' ",
+      "time" : {
+        "start" : 1523547488011,
+        "stop" : 1523547489081,
+        "duration" : 1070
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 8,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.EditCandidateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "longNameTest"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.EditCandidateTest"
+  }, {
+    "name" : "host",
+    "value" : "Home-pc"
+  }, {
+    "name" : "thread",
+    "value" : "10884@Home-pc.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Подбор и адаптация"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 6 – Редактирование кандидата"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "critical",
+    "categories" : [ ]
+  }
+}

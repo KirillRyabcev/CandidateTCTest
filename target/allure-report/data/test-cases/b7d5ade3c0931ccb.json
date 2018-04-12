@@ -1,0 +1,172 @@
+{
+  "uid" : "b7d5ade3c0931ccb",
+  "name" : "Создание кандидата c двумя точками",
+  "fullName" : "edu.bsuir.test.CreateCandidateTest.twoDotsEmailTest",
+  "historyId" : "77258cf79ec3401d66e0b4c4a32b5e6",
+  "time" : {
+    "start" : 1523547285415,
+    "stop" : 1523547295003,
+    "duration" : 9588
+  },
+  "status" : "passed",
+  "description" : "Создание кандидата c двумя точками за главного рекрутера",
+  "descriptionHtml" : "<p>Создание кандидата c двумя точками за главного рекрутера</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Логинимся в систему",
+      "time" : {
+        "start" : 1523547285418,
+        "stop" : 1523547288339,
+        "duration" : 2921
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Вводим в поле Имя Иван",
+      "time" : {
+        "start" : 1523547290626,
+        "stop" : 1523547290757,
+        "duration" : 131
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Иван"
+      } ]
+    }, {
+      "name" : "Вводим в поле Фамилия Соколов",
+      "time" : {
+        "start" : 1523547290757,
+        "stop" : 1523547290918,
+        "duration" : 161
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "surname",
+        "value" : "Соколов"
+      } ]
+    }, {
+      "name" : "Вводим в поле Телефон 123456789",
+      "time" : {
+        "start" : 1523547290918,
+        "stop" : 1523547291085,
+        "duration" : 167
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "phone",
+        "value" : "123456789"
+      } ]
+    }, {
+      "name" : "Вводим в поле Еmail qwe@gmail.com",
+      "time" : {
+        "start" : 1523547291085,
+        "stop" : 1523547291266,
+        "duration" : 181
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "qwe@gmail.com"
+      } ]
+    }, {
+      "name" : "Вводим в поле Еmail ivan@ivan..com",
+      "time" : {
+        "start" : 1523547291266,
+        "stop" : 1523547291400,
+        "duration" : 134
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "ivan@ivan..com"
+      } ]
+    }, {
+      "name" : "Нажимаем 'Сохранить' ",
+      "time" : {
+        "start" : 1523547291400,
+        "stop" : 1523547291697,
+        "duration" : 297
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.CreateCandidateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "twoDotsEmailTest"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.CreateCandidateTest"
+  }, {
+    "name" : "host",
+    "value" : "Home-pc"
+  }, {
+    "name" : "thread",
+    "value" : "10884@Home-pc.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Подбор и адаптация"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 1 – Создание кандидата"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "critical",
+    "categories" : [ ]
+  }
+}

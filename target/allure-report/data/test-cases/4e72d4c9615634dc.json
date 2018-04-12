@@ -1,0 +1,200 @@
+{
+  "uid" : "4e72d4c9615634dc",
+  "name" : "Создание кандидата с нижними подчеркиваниями и тире в email",
+  "fullName" : "edu.bsuir.test.CreateCandidateTest.emailWithUnderscoreAndDashTest",
+  "historyId" : "8824708b983f7fdcf6fc408d4b6ccd58",
+  "time" : {
+    "start" : 1523547295013,
+    "stop" : 1523547309280,
+    "duration" : 14267
+  },
+  "status" : "passed",
+  "description" : "Создание кандидата с нижними подчеркиваниями и тире в email за главного рекрутера",
+  "descriptionHtml" : "<p>Создание кандидата с нижними подчеркиваниями и тире в email за главного рекрутера</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Логинимся в систему",
+      "time" : {
+        "start" : 1523547295015,
+        "stop" : 1523547297424,
+        "duration" : 2409
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Вводим в поле Имя Иван",
+      "time" : {
+        "start" : 1523547299566,
+        "stop" : 1523547299689,
+        "duration" : 123
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Иван"
+      } ]
+    }, {
+      "name" : "Вводим в поле Фамилия Соколов",
+      "time" : {
+        "start" : 1523547299689,
+        "stop" : 1523547299845,
+        "duration" : 156
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "surname",
+        "value" : "Соколов"
+      } ]
+    }, {
+      "name" : "Вводим в поле Телефон 123456789",
+      "time" : {
+        "start" : 1523547299845,
+        "stop" : 1523547300006,
+        "duration" : 161
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "phone",
+        "value" : "123456789"
+      } ]
+    }, {
+      "name" : "Вводим в поле Еmail qwe@gmail.com",
+      "time" : {
+        "start" : 1523547300007,
+        "stop" : 1523547300189,
+        "duration" : 182
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "qwe@gmail.com"
+      } ]
+    }, {
+      "name" : "Вводим в поле Еmail iv-an@ivan_ivan.ivan",
+      "time" : {
+        "start" : 1523547300189,
+        "stop" : 1523547300353,
+        "duration" : 164
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "iv-an@ivan_ivan.ivan"
+      } ]
+    }, {
+      "name" : "Нажимаем 'Сохранить' ",
+      "time" : {
+        "start" : 1523547300353,
+        "stop" : 1523547300736,
+        "duration" : 383
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем на кнопку 'Удалить' ",
+      "time" : {
+        "start" : 1523547305851,
+        "stop" : 1523547305938,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем на кнопку 'Удалить' в всплывающем окне",
+      "time" : {
+        "start" : 1523547306939,
+        "stop" : 1523547307037,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 9,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.CreateCandidateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "emailWithUnderscoreAndDashTest"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.CreateCandidateTest"
+  }, {
+    "name" : "host",
+    "value" : "Home-pc"
+  }, {
+    "name" : "thread",
+    "value" : "10884@Home-pc.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Подбор и адаптация"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 1 – Создание кандидата"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

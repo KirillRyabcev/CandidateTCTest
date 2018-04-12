@@ -1,0 +1,177 @@
+{
+  "uid" : "85d0134051fa7f9",
+  "name" : "Вводим в поле Имя пустую строку",
+  "fullName" : "edu.bsuir.test.EditCandidateTest.emptyNameTest",
+  "historyId" : "b8655365d7fdeaae43c578f9ebc3c1dc",
+  "time" : {
+    "start" : 1523547455136,
+    "stop" : 1523547472249,
+    "duration" : 17113
+  },
+  "status" : "passed",
+  "description" : "Вводим в поле Имя пустую строку",
+  "descriptionHtml" : "<p>Вводим в поле Имя пустую строку</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Логинимся в систему",
+      "time" : {
+        "start" : 1523547455136,
+        "stop" : 1523547457583,
+        "duration" : 2447
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Переходим на страницу кандидатов",
+      "time" : {
+        "start" : 1523547457583,
+        "stop" : 1523547461443,
+        "duration" : 3860
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Вводим текст в поле поиска",
+      "time" : {
+        "start" : 1523547462454,
+        "stop" : 1523547462667,
+        "duration" : 213
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "search",
+        "value" : "Петров"
+      } ]
+    }, {
+      "name" : "Нажимаем на первого кандидата в списке",
+      "time" : {
+        "start" : 1523547463682,
+        "stop" : 1523547464781,
+        "duration" : 1099
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем на кнопку 'Редактировать' ",
+      "time" : {
+        "start" : 1523547465789,
+        "stop" : 1523547465888,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Вводим в поле фамилия  ",
+      "time" : {
+        "start" : 1523547466888,
+        "stop" : 1523547466981,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "surname",
+        "value" : " "
+      } ]
+    }, {
+      "name" : "Нажимаем кнопку 'Сохранить' ",
+      "time" : {
+        "start" : 1523547466981,
+        "stop" : 1523547467671,
+        "duration" : 690
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем кнопку 'Отменить' ",
+      "time" : {
+        "start" : 1523547469779,
+        "stop" : 1523547471010,
+        "duration" : 1231
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 8,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.EditCandidateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "emptyNameTest"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.EditCandidateTest"
+  }, {
+    "name" : "host",
+    "value" : "Home-pc"
+  }, {
+    "name" : "thread",
+    "value" : "10884@Home-pc.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Подбор и адаптация"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 6 – Редактирование кандидата"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "critical",
+    "categories" : [ ]
+  }
+}

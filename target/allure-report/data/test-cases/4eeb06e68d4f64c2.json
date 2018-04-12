@@ -1,0 +1,132 @@
+{
+  "uid" : "4eeb06e68d4f64c2",
+  "name" : "Загрузка фотогафии через селениум",
+  "fullName" : "edu.bsuir.test.CreateCandidateTest.uploadFileUsingSelenium",
+  "historyId" : "4f60306c83ca61dd7cfc54cbb4289121",
+  "time" : {
+    "start" : 1523547397138,
+    "stop" : 1523547412382,
+    "duration" : 15244
+  },
+  "status" : "passed",
+  "description" : "Загрузка фотогафии через селениум за главного рекрутера",
+  "descriptionHtml" : "<p>Загрузка фотогафии через селениум за главного рекрутера</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Логинимся в систему",
+      "time" : {
+        "start" : 1523547397140,
+        "stop" : 1523547399459,
+        "duration" : 2319
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем 'Загрузить резюме' ",
+      "time" : {
+        "start" : 1523547400612,
+        "stop" : 1523547400684,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "C:\\Users\\Acer\\Desktop\\CandidateTCTest\\resources\\resume.pdf"
+      } ]
+    }, {
+      "name" : "Нажимаем 'Сохранить' ",
+      "time" : {
+        "start" : 1523547402684,
+        "stop" : 1523547403297,
+        "duration" : 613
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем на кнопку 'Удалить' ",
+      "time" : {
+        "start" : 1523547407655,
+        "stop" : 1523547407747,
+        "duration" : 92
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем на кнопку 'Удалить' в всплывающем окне",
+      "time" : {
+        "start" : 1523547408747,
+        "stop" : 1523547408834,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.CreateCandidateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "uploadFileUsingSelenium"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.CreateCandidateTest"
+  }, {
+    "name" : "host",
+    "value" : "Home-pc"
+  }, {
+    "name" : "thread",
+    "value" : "10884@Home-pc.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Подбор и адаптация"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 2 – Загрузка фото"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "minor",
+    "categories" : [ ]
+  }
+}

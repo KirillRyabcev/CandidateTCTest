@@ -1,6 +1,7 @@
 package edu.bsuir.web;
 import edu.bsuir.driver.WebDriverSingleton;
 import edu.bsuir.web.page.LoginPage;
+import io.qameta.allure.Step;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;
@@ -19,7 +20,7 @@ import java.util.List;
 public class Login {
 
     private WebDriver driver = WebDriverSingleton.getInstance();
-
+    @Step("Входим в систему")
     public void login(String role) throws Exception{
         LoginPage lp = new LoginPage();
         Parser pd = new Parser();

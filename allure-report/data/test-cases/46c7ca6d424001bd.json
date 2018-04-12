@@ -1,0 +1,347 @@
+{
+  "uid" : "46c7ca6d424001bd",
+  "name" : "Редактирование кандидата",
+  "fullName" : "edu.bsuir.test.EditCandidateTest.editTest",
+  "historyId" : "88317b107b6cfc234ab235637d2ea48f",
+  "time" : {
+    "start" : 1523547507271,
+    "stop" : 1523547528395,
+    "duration" : 21124
+  },
+  "status" : "passed",
+  "description" : "Редактирование кандидата за главного рекрутера",
+  "descriptionHtml" : "<p>Редактирование кандидата за главного рекрутера</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Логинимся в систему",
+      "time" : {
+        "start" : 1523547507271,
+        "stop" : 1523547510309,
+        "duration" : 3038
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Переходим на страницу кандидатов",
+      "time" : {
+        "start" : 1523547510309,
+        "stop" : 1523547514700,
+        "duration" : 4391
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Вводим текст в поле поиска",
+      "time" : {
+        "start" : 1523547515701,
+        "stop" : 1523547515843,
+        "duration" : 142
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "search",
+        "value" : "Петров"
+      } ]
+    }, {
+      "name" : "Нажимаем на первого кандидата в списке",
+      "time" : {
+        "start" : 1523547516843,
+        "stop" : 1523547518918,
+        "duration" : 2075
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем на кнопку 'Редактировать' ",
+      "time" : {
+        "start" : 1523547519918,
+        "stop" : 1523547519990,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Вводим в поле имя Иван",
+      "time" : {
+        "start" : 1523547520992,
+        "stop" : 1523547521135,
+        "duration" : 143
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Иван"
+      } ]
+    }, {
+      "name" : "Вводим в поле фамилия Петров",
+      "time" : {
+        "start" : 1523547521135,
+        "stop" : 1523547521278,
+        "duration" : 143
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "surname",
+        "value" : "Петров"
+      } ]
+    }, {
+      "name" : "Вводим в поле Отчество Петрович",
+      "time" : {
+        "start" : 1523547521279,
+        "stop" : 1523547521425,
+        "duration" : 146
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "fatherName",
+        "value" : "Петрович"
+      } ]
+    }, {
+      "name" : "Вводим в поле Skype petr_petrov",
+      "time" : {
+        "start" : 1523547521425,
+        "stop" : 1523547521602,
+        "duration" : 177
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "skype",
+        "value" : "petr_petrov"
+      } ]
+    }, {
+      "name" : "Вводим в поле Страна Украина",
+      "time" : {
+        "start" : 1523547521602,
+        "stop" : 1523547521752,
+        "duration" : 150
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "country",
+        "value" : "Украина"
+      } ]
+    }, {
+      "name" : "Вводим в поле Город Киев",
+      "time" : {
+        "start" : 1523547521753,
+        "stop" : 1523547521886,
+        "duration" : 133
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "city",
+        "value" : "Киев"
+      } ]
+    }, {
+      "name" : "Нажимаем 'переезд невозможен' ",
+      "time" : {
+        "start" : 1523547521886,
+        "stop" : 1523547521970,
+        "duration" : 84
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Вводим в поле День 23",
+      "time" : {
+        "start" : 1523547521970,
+        "stop" : 1523547522094,
+        "duration" : 124
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "day",
+        "value" : "23"
+      } ]
+    }, {
+      "name" : "Вводим в поле Месяц 10",
+      "time" : {
+        "start" : 1523547522094,
+        "stop" : 1523547522212,
+        "duration" : 118
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "month",
+        "value" : "10"
+      } ]
+    }, {
+      "name" : "Вводим в поле Год 1995",
+      "time" : {
+        "start" : 1523547522212,
+        "stop" : 1523547522369,
+        "duration" : 157
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "year",
+        "value" : "1995"
+      } ]
+    }, {
+      "name" : "Выбираем уровень образования по значению 3",
+      "time" : {
+        "start" : 1523547522370,
+        "stop" : 1523547522431,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "3"
+      } ]
+    }, {
+      "name" : "Вводим в поле Желаемая должность Бизнес-аналитик",
+      "time" : {
+        "start" : 1523547522431,
+        "stop" : 1523547522630,
+        "duration" : 199
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "position",
+        "value" : "Бизнес-аналитик"
+      } ]
+    }, {
+      "name" : "Нажимаем кнопку 'Сохранить' ",
+      "time" : {
+        "start" : 1523547522630,
+        "stop" : 1523547522967,
+        "duration" : 337
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 18,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.EditCandidateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "editTest"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.EditCandidateTest"
+  }, {
+    "name" : "host",
+    "value" : "Home-pc"
+  }, {
+    "name" : "thread",
+    "value" : "10884@Home-pc.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Подбор и адаптация"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 6 – Редактирование кандидата"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "categories" : [ ]
+  }
+}

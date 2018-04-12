@@ -1,0 +1,231 @@
+[ {
+  "uid" : "4a427a72596f16ed",
+  "name" : "Вводим в поле Год рождения значение < 1900",
+  "time" : {
+    "start" : 1523547490341,
+    "stop" : 1523547507264,
+    "duration" : 16923
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4eeb06e68d4f64c2",
+  "name" : "Загрузка фотогафии через селениум",
+  "time" : {
+    "start" : 1523547397138,
+    "stop" : 1523547412382,
+    "duration" : 15244
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "107d940b3895de0c",
+  "name" : "Создание кандидата c +,),-",
+  "time" : {
+    "start" : 1523547351638,
+    "stop" : 1523547366548,
+    "duration" : 14910
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc9a64903e491cd7",
+  "name" : "Удаление кандидата",
+  "time" : {
+    "start" : 1523547412397,
+    "stop" : 1523547437487,
+    "duration" : 25090
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46c7ca6d424001bd",
+  "name" : "Редактирование кандидата",
+  "time" : {
+    "start" : 1523547507271,
+    "stop" : 1523547528395,
+    "duration" : 21124
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "af76d012a22a60d8",
+  "name" : "Создание кандидата c любыми символами в имени",
+  "time" : {
+    "start" : 1523547318222,
+    "stop" : 1523547332700,
+    "duration" : 14478
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "61baab6eba37ca18",
+  "name" : "Создание кандидата только с буквами в поле Телефон",
+  "time" : {
+    "start" : 1523547240023,
+    "stop" : 1523547257437,
+    "duration" : 17414
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4e72d4c9615634dc",
+  "name" : "Создание кандидата с нижними подчеркиваниями и тире в email",
+  "time" : {
+    "start" : 1523547295013,
+    "stop" : 1523547309280,
+    "duration" : 14267
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d603b07cf5742a9",
+  "name" : "Создание кандидата",
+  "time" : {
+    "start" : 1523547366557,
+    "stop" : 1523547387933,
+    "duration" : 21376
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "fbf7e7b93e8a6c13",
+  "name" : "Вводим несущуствующую дату",
+  "time" : {
+    "start" : 1523547528404,
+    "stop" : 1523547548545,
+    "duration" : 20141
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a195215f3360a05",
+  "name" : "Создание кандидата с слишком длинным именем",
+  "time" : {
+    "start" : 1523547332709,
+    "stop" : 1523547342469,
+    "duration" : 9760
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b64fb90c593fdc88",
+  "name" : "Создание кандидата с пустым полем Email",
+  "time" : {
+    "start" : 1523547309288,
+    "stop" : 1523547318214,
+    "duration" : 8926
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "95f18573789bc457",
+  "name" : "Появление чатично подходящих вакансий",
+  "time" : {
+    "start" : 1523547572827,
+    "stop" : 1523547596917,
+    "duration" : 24090
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "ca9719bd934d3566",
+  "name" : "Создание кандидата с пустым именем",
+  "time" : {
+    "start" : 1523547276222,
+    "stop" : 1523547285405,
+    "duration" : 9183
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b10680c2a5926e0e",
+  "name" : "Создание кандидата только с буквами в поле Email",
+  "time" : {
+    "start" : 1523547387942,
+    "stop" : 1523547397129,
+    "duration" : 9187
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1723e9649c885632",
+  "name" : "Вводим в поле Год рождения не наступивший год",
+  "time" : {
+    "start" : 1523547437549,
+    "stop" : 1523547455126,
+    "duration" : 17577
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e445b5706825989",
+  "name" : "Фильтр списка кандидатов",
+  "time" : {
+    "start" : 1523547548610,
+    "stop" : 1523547572818,
+    "duration" : 24208
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7d5ade3c0931ccb",
+  "name" : "Создание кандидата c двумя точками",
+  "time" : {
+    "start" : 1523547285415,
+    "stop" : 1523547295003,
+    "duration" : 9588
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a9bf7f0e11160d8c",
+  "name" : "Загрузка фотогафии через Robot",
+  "time" : {
+    "start" : 1523547257612,
+    "stop" : 1523547276188,
+    "duration" : 18576
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "7d50998d1fe74d91",
+  "name" : "Появление подходящих вакансий",
+  "time" : {
+    "start" : 1523547596923,
+    "stop" : 1523547626788,
+    "duration" : 29865
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "d5e774142deb6cad",
+  "name" : "Создание кандидата с двумя @",
+  "time" : {
+    "start" : 1523547342477,
+    "stop" : 1523547351631,
+    "duration" : 9154
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "960ba068291cae2d",
+  "name" : "Вводим в поле Имя количество символов > 50",
+  "time" : {
+    "start" : 1523547472258,
+    "stop" : 1523547490333,
+    "duration" : 18075
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "85d0134051fa7f9",
+  "name" : "Вводим в поле Имя пустую строку",
+  "time" : {
+    "start" : 1523547455136,
+    "stop" : 1523547472249,
+    "duration" : 17113
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

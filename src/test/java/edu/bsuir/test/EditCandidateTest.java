@@ -9,6 +9,8 @@ import edu.bsuir.web.page.CandidateProfilePage;
 import edu.bsuir.web.page.CandidatesListPage;
 import edu.bsuir.web.page.CreatePage;
 import edu.bsuir.web.page.EditPage;
+import io.qameta.allure.*;
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
@@ -27,23 +29,14 @@ public class EditCandidateTest {
     static CandidatesListPage clp = new CandidatesListPage();
     static CandidateProfilePage cpp = new CandidateProfilePage();
 
-    @BeforeClass
-    public static void comeToEditPage() throws Exception{
-        Login login = new Login();
-        login.login("Генеральный директор");
-        Helper.comeToCandidatesList();
-        Helper.waitForTime(2);
-        clp.typeSearch("Петров");
-        Helper.waitForTime(2);
-        clp.clickCandidate();
+    @Step("Логинимся в систему")
+    private void login() {
+        driver.get("http://testing.cld.iba.by/");
+        driver.findElement(By.id("_58_login")).sendKeys("kabanov@tc.by");
+        driver.findElement(By.id("_58_password")).sendKeys("welcome");
+        driver.findElement(By.xpath("//button[@type='submit']")).click();
     }
 
-    @Before
-    public void clickEdit(){
-        Helper.waitForTime(1);
-        cpp.clickEdit();
-        Helper.waitForTime(1);
-    }
 
     String name = "Иван";
     String surname = "Петров";
@@ -58,7 +51,20 @@ public class EditCandidateTest {
     String desiredPosition = "Бизнес-аналитик";
 
     @Test
+    @DisplayName("Редактирование кандидата")
+    @Description("Редактирование кандидата за главного рекрутера")
+    @Feature("Подбор и адаптация")
+    @Story("Сценарий 6 – Редактирование кандидата")
+    @Severity(SeverityLevel.BLOCKER)
     public void editTest() throws Exception{
+        login();
+        Helper.comeToCandidatesList();
+        Helper.waitForTime(1);
+        clp.typeSearch("Петров");
+        Helper.waitForTime(1);
+        clp.clickCandidate();
+        Helper.waitForTime(1);
+        cpp.clickEdit();
         Helper.waitForTime(1);
         ep.typeName(name);
         ep.typeSurname(surname);
@@ -73,7 +79,7 @@ public class EditCandidateTest {
         ep.selectEducationByValue(valueOfEducation);
         ep.typePosition(desiredPosition);
         ep.clickSave();
-
+        Helper.waitForTime(2);
         Assert.assertEquals(surname + " " + name + " " + fatherName, driver.findElement(By.xpath("//div[@class=\"tc-theme-page-name\"]")).getText());
         Assert.assertTrue( driver.findElement(By.xpath("//*[@id=\"profileForm\"]/div[2]/div[3]/div/div[2]/div[2]/div/div/div[2]")).getText().contains(day + "." + month + "." + year));
         Assert.assertTrue(driver.findElement(By.xpath("//*[@class=\"residence\"]")).getText().contains(country));
@@ -83,7 +89,20 @@ public class EditCandidateTest {
     }
 
     @Test
+    @DisplayName("Вводим в поле Имя количество символов > 50")
+    @Description("Вводим в поле Имя количество символов > 50")
+    @Feature("Подбор и адаптация")
+    @Story("Сценарий 6 – Редактирование кандидата")
+    @Severity(SeverityLevel.CRITICAL)
     public void longNameTest() throws Exception{
+        login();
+        Helper.comeToCandidatesList();
+        Helper.waitForTime(1);
+        clp.typeSearch("Петров");
+        Helper.waitForTime(1);
+        clp.clickCandidate();
+        Helper.waitForTime(1);
+        cpp.clickEdit();
         Helper.waitForTime(1);
         ep.typeSurname(Helper.generateRandomString(55, GeneratorMode.ALPHANUMERIC));
         ep.clickSave();
@@ -92,7 +111,20 @@ public class EditCandidateTest {
     }
 
     @Test
+    @DisplayName("Вводим в поле Имя пустую строку")
+    @Description("Вводим в поле Имя пустую строку")
+    @Feature("Подбор и адаптация")
+    @Story("Сценарий 6 – Редактирование кандидата")
+    @Severity(SeverityLevel.CRITICAL)
     public void emptyNameTest() throws Exception{
+        login();
+        Helper.comeToCandidatesList();
+        Helper.waitForTime(1);
+        clp.typeSearch("Петров");
+        Helper.waitForTime(1);
+        clp.clickCandidate();
+        Helper.waitForTime(1);
+        cpp.clickEdit();
         Helper.waitForTime(1);
         ep.typeSurname(" ");
         ep.clickSave();
@@ -101,7 +133,20 @@ public class EditCandidateTest {
     }
 
     @Test
+    @DisplayName("Вводим несущуствующую дату")
+    @Description("Вводим несущуствующую дату")
+    @Feature("Подбор и адаптация")
+    @Story("Сценарий 6 – Редактирование кандидата")
+    @Severity(SeverityLevel.NORMAL)
     public void nonExistantDateTest() throws Exception{
+        login();
+        Helper.comeToCandidatesList();
+        Helper.waitForTime(1);
+        clp.typeSearch("Петров");
+        Helper.waitForTime(1);
+        clp.clickCandidate();
+        Helper.waitForTime(1);
+        cpp.clickEdit();
         Helper.waitForTime(1);
         ep.typeDay("33");
         ep.typeMonth("0");
@@ -111,7 +156,20 @@ public class EditCandidateTest {
     }
 
     @Test
+    @DisplayName("Вводим в поле Год рождения не наступивший год")
+    @Description("Вводим в поле Год рождения не наступивший год")
+    @Feature("Подбор и адаптация")
+    @Story("Сценарий 6 – Редактирование кандидата")
+    @Severity(SeverityLevel.NORMAL)
     public void futureTimeDateTest() throws Exception{
+        login();
+        Helper.comeToCandidatesList();
+        Helper.waitForTime(1);
+        clp.typeSearch("Петров");
+        Helper.waitForTime(1);
+        clp.clickCandidate();
+        Helper.waitForTime(1);
+        cpp.clickEdit();
         Helper.waitForTime(1);
         ep.typeYear("2020");
         ep.clickSave();
@@ -120,7 +178,20 @@ public class EditCandidateTest {
     }
 
     @Test
+    @DisplayName("Вводим в поле Год рождения значение < 1900")
+    @Description("Вводим в поле Год рождения значение < 1900")
+    @Feature("Подбор и адаптация")
+    @Story("Сценарий 6 – Редактирование кандидата")
+    @Severity(SeverityLevel.NORMAL)
     public void tooMuchTimeAgo() throws Exception{
+        login();
+        Helper.comeToCandidatesList();
+        Helper.waitForTime(1);
+        clp.typeSearch("Петров");
+        Helper.waitForTime(1);
+        clp.clickCandidate();
+        Helper.waitForTime(1);
+        cpp.clickEdit();
         Helper.waitForTime(1);
         ep.typeYear("1899");
         ep.clickSave();
@@ -129,13 +200,14 @@ public class EditCandidateTest {
     }
 
     @After
-    public void returnToCandidateProfilePage(){
+    public void logout(){
         Helper.waitForTime(1);
         if (EditElement.SAVE.getText().equals("Сохранить")){
             Helper.scrollUp();
             ep.clickCancel();
         }
         Helper.waitForTime(1);
+        driver.findElement(By.xpath("//*[@id=\"heading\"]/ul/li[6]/a/img")).click();
     }
 
 

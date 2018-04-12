@@ -1,0 +1,227 @@
+{
+  "uid" : "e445b5706825989",
+  "name" : "Фильтр списка кандидатов",
+  "fullName" : "edu.bsuir.test.FilterTest.simpleFilterTest",
+  "historyId" : "93928fcc66fc15fce9f18f663869a94d",
+  "time" : {
+    "start" : 1523547548610,
+    "stop" : 1523547572818,
+    "duration" : 24208
+  },
+  "status" : "passed",
+  "description" : "Фильтр списка кандидатов по указанным параметрам",
+  "descriptionHtml" : "<p>Фильтр списка кандидатов по указанным параметрам</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Логинимся в систему",
+      "time" : {
+        "start" : 1523547548611,
+        "stop" : 1523547551366,
+        "duration" : 2755
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Переходим на страницу кандидатов",
+      "time" : {
+        "start" : 1523547551366,
+        "stop" : 1523547556195,
+        "duration" : 4829
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем 'переезд невозможен' ",
+      "time" : {
+        "start" : 1523547558195,
+        "stop" : 1523547558278,
+        "duration" : 83
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем select 'Образование' ",
+      "time" : {
+        "start" : 1523547560303,
+        "stop" : 1523547560377,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем option в select 'Образование' ",
+      "time" : {
+        "start" : 1523547561377,
+        "stop" : 1523547561450,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем select 'Образование' ",
+      "time" : {
+        "start" : 1523547562458,
+        "stop" : 1523547562536,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем select 'Университет'",
+      "time" : {
+        "start" : 1523547563550,
+        "stop" : 1523547563641,
+        "duration" : 91
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем option в select 'Университет'",
+      "time" : {
+        "start" : 1523547564646,
+        "stop" : 1523547564738,
+        "duration" : 92
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем select 'Университет'",
+      "time" : {
+        "start" : 1523547565745,
+        "stop" : 1523547565800,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем на первого кандидата в списке",
+      "time" : {
+        "start" : 1523547567809,
+        "stop" : 1523547569289,
+        "duration" : 1480
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем на таб 'Образование' ",
+      "time" : {
+        "start" : 1523547570290,
+        "stop" : 1523547570404,
+        "duration" : 114
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем на таб 'Образование' ",
+      "time" : {
+        "start" : 1523547570404,
+        "stop" : 1523547570453,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 12,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.FilterTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "simpleFilterTest"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.FilterTest"
+  }, {
+    "name" : "host",
+    "value" : "Home-pc"
+  }, {
+    "name" : "thread",
+    "value" : "10884@Home-pc.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Подбор и адаптация"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 4 – Фильтр кандидата"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

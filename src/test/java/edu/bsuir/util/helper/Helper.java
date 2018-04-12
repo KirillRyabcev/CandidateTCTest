@@ -1,6 +1,7 @@
 package edu.bsuir.util.helper;
 import edu.bsuir.driver.WebDriverSingleton;
 import edu.bsuir.web.page.CreatePage;
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -71,7 +72,7 @@ public class Helper {
         cp.typePhone(phone);
         cp.typeEmail(email);
     }
-
+    @Step("Переходим на страницу кандидатов")
     public static void comeToCandidatesList(){
         WebDriver driver = WebDriverSingleton.getInstance();
         WebElement recruitmentButton = driver.findElement(By.xpath("//*[@id=\"navigationIcon3\"]"));

@@ -6,6 +6,8 @@ import edu.bsuir.web.Login;
 import edu.bsuir.web.page.CandidateProfilePage;
 import edu.bsuir.web.page.CandidatesListPage;
 import edu.bsuir.web.page.EditPage;
+import io.qameta.allure.*;
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -22,20 +24,27 @@ public class SuitableVacancyTest {
     static CandidatesListPage clp = new CandidatesListPage();
     static CandidateProfilePage cpp = new CandidateProfilePage();
 
+    @Step("Логинимся в систему")
+    private static void login() {
+        driver.get("http://testing.cld.iba.by/");
+        driver.findElement(By.id("_58_login")).sendKeys("kabanov@tc.by");
+        driver.findElement(By.id("_58_password")).sendKeys("welcome");
+        driver.findElement(By.xpath("//button[@type='submit']")).click();
+    }
 
-    @BeforeClass
-    public static void comeToCandidatePage() throws Exception{
-        Login login = new Login();
-        login.login("Генеральный директор");
+    @Test
+    @DisplayName("Появление чатично подходящих вакансий")
+    @Description("Появление частично подходящих вакансий по заданным компетенциям")
+    @Feature("Подбор и адаптация")
+    @Story("Сценарий 5 – Появление вакансий")
+    @Severity(SeverityLevel.MINOR)
+    public void partlySuitableVacancyTest() throws Exception{
+        login();
         Helper.comeToCandidatesList();
         Helper.waitForTime(2);
         clp.typeSearch("Петров");
         Helper.waitForTime(2);
         clp.clickCandidate();
-    }
-
-    @Test
-    public void partlySuitableVacancyTest() throws Exception{
         Helper.waitForTime(1);
         cpp.clickEdit();
         ep.clickEditCompetences();
@@ -43,7 +52,7 @@ public class SuitableVacancyTest {
         Helper.waitForTime(2);
         ep.clickEnglish();
         Helper.waitForTime(2);
-        ep.clickOK();
+        ep.clickOK2();
         Helper.waitForTime(2);
         Helper.scrollUp();
         ep.clickSave();
@@ -54,7 +63,18 @@ public class SuitableVacancyTest {
     }
 
     @Test
+    @DisplayName("Появление подходящих вакансий")
+    @Description("Появление подходящих вакансий по заданным компетенциям")
+    @Feature("Подбор и адаптация")
+    @Story("Сценарий 5 – Появление вакансий")
+    @Severity(SeverityLevel.MINOR)
     public void suitableVacancyTest() throws Exception{
+        login();
+        Helper.comeToCandidatesList();
+        Helper.waitForTime(2);
+        clp.typeSearch("Петров");
+        Helper.waitForTime(2);
+        clp.clickCandidate();
         Helper.waitForTime(1);
         cpp.clickEdit();
         ep.clickEditCompetences();
@@ -78,8 +98,20 @@ public class SuitableVacancyTest {
 
     }
 
+    @After
+    public void logout(){
+        Helper.waitForTime(1);
+        driver.findElement(By.xpath("//*[@id=\"heading\"]/ul/li[6]/a/img")).click();
+    }
+
     @AfterClass
     public static void removeCompetences(){
+        login();
+        Helper.comeToCandidatesList();
+        Helper.waitForTime(2);
+        clp.typeSearch("Петров");
+        Helper.waitForTime(2);
+        clp.clickCandidate();
         Helper.waitForTime(1);
         cpp.clickEdit();
         ep.clickEditCompetences();
@@ -91,5 +123,7 @@ public class SuitableVacancyTest {
         Helper.waitForTime(1);
         ep.clickSave();
     }
+
+
 
 }

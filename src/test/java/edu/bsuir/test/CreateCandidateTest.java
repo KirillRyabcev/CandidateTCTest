@@ -7,6 +7,8 @@ import edu.bsuir.web.Login;
 import edu.bsuir.web.page.CandidateProfilePage;
 import edu.bsuir.web.page.CandidatesListPage;
 import edu.bsuir.web.page.CreatePage;
+import io.qameta.allure.*;
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.*;
 import org.junit.experimental.theories.DataPoint;
 import org.junit.experimental.theories.DataPoints;
@@ -54,6 +56,7 @@ public class CreateCandidateTest {
     static String valueOfEducation = "4";
     static String desiredPosition = "Junior Java Developer";
 
+    @Step("Логинимся в систему")
     private void login() {
         driver.get("http://testing.cld.iba.by/");
         driver.findElement(By.id("_58_login")).sendKeys("kabanov@tc.by");
@@ -92,6 +95,11 @@ public class CreateCandidateTest {
     //-------------------------------------Positive tests----------------------------------//
 
     @Test
+    @DisplayName("Создание кандидата")
+    @Description("Создание кандидата за главного рекрутера")
+    @Feature("Подбор и адаптация")
+    @Story("Сценарий 1 – Создание кандидата")
+    @Severity(SeverityLevel.BLOCKER)
     public void createCandidateTest() throws Exception{
         login();
         driver.get("http://testing.cld.iba.by/web/guest/recruiting/candidates/-/candidates/createProfile");
@@ -126,6 +134,11 @@ public class CreateCandidateTest {
     }
 
     @Test
+    @DisplayName("Создание кандидата c +,),-")
+    @Description("Создание кандидата c +,),- за главного рекрутера")
+    @Feature("Подбор и адаптация")
+    @Story("Сценарий 1 – Создание кандидата")
+    @Severity(SeverityLevel.NORMAL)
     public void PhoneWithPlusBracketsAndDashTest() throws Exception{
         login();
         driver.get("http://testing.cld.iba.by/web/guest/recruiting/candidates/-/candidates/createProfile");
@@ -142,6 +155,11 @@ public class CreateCandidateTest {
     }
 
     @Test
+    @DisplayName("Создание кандидата c любыми символами в имени")
+    @Description("Создание кандидата c любыми символами в имени за главного рекрутера")
+    @Feature("Подбор и адаптация")
+    @Story("Сценарий 1 – Создание кандидата")
+    @Severity(SeverityLevel.NORMAL)
     public void nameWithAnyCharachtersTest() throws Exception{
         login();
         driver.get("http://testing.cld.iba.by/web/guest/recruiting/candidates/-/candidates/createProfile");
@@ -159,6 +177,11 @@ public class CreateCandidateTest {
     }
 
     @Test
+    @DisplayName("Создание кандидата с нижними подчеркиваниями и тире в email")
+    @Description("Создание кандидата с нижними подчеркиваниями и тире в email за главного рекрутера")
+    @Feature("Подбор и адаптация")
+    @Story("Сценарий 1 – Создание кандидата")
+    @Severity(SeverityLevel.NORMAL)
     public void emailWithUnderscoreAndDashTest() throws Exception{
         login();
         driver.get("http://testing.cld.iba.by/web/guest/recruiting/candidates/-/candidates/createProfile");
@@ -175,6 +198,11 @@ public class CreateCandidateTest {
     }
 
     @Test
+    @DisplayName("Загрузка фотогафии через селениум")
+    @Description("Загрузка фотогафии через селениум за главного рекрутера")
+    @Feature("Подбор и адаптация")
+    @Story("Сценарий 2 – Загрузка фото")
+    @Severity(SeverityLevel.MINOR)
     public void uploadFileUsingSelenium() throws Exception{
         login();
         driver.get("http://testing.cld.iba.by/web/guest/recruiting/candidates/-/candidates/createProfile");
@@ -186,6 +214,11 @@ public class CreateCandidateTest {
     }
 
     @Test
+    @DisplayName("Загрузка фотогафии через Robot")
+    @Description("Загрузка фотогафии через Robot за главного рекрутера")
+    @Feature("Подбор и адаптация")
+    @Story("Сценарий 2 – Загрузка фото")
+    @Severity(SeverityLevel.MINOR)
     public void uploadFileUsingRobot() {
         login();
         driver.get("http://testing.cld.iba.by/web/guest/recruiting/candidates/-/candidates/createProfile");
@@ -201,7 +234,7 @@ public class CreateCandidateTest {
         Helper.waitForTime(1);
         Assert.assertEquals("resume.pdf",driver.findElement(By.xpath("//*[@id=\"attachedFiles\"]/div/a")).getText());
     }
-
+/*
     @Test
     public void uploadFileUsingSikuli() throws Exception {
         final String noAvatar = "http://testing.cld.iba.by/TC-RecruitingAndOnboarding-portlet/common/css/images/no-avatar.jpg";
@@ -218,12 +251,17 @@ public class CreateCandidateTest {
         WebElement picture = driver.findElement(By.id("currentImage"));
         Assert.assertNotEquals(picture.getAttribute("src"), noAvatar);
     }
-
+*/
 
     //----------------------------------Negative tests-----------------------------------//
 
 
     @Test
+    @DisplayName("Создание кандидата с слишком длинным именем")
+    @Description("Создание кандидата с слишком длинным именем за главного рекрутера")
+    @Feature("Подбор и адаптация")
+    @Story("Сценарий 1 – Создание кандидата")
+    @Severity(SeverityLevel.CRITICAL)
     public void tooLongNameTest() throws Exception{
         login();
         driver.get("http://testing.cld.iba.by/web/guest/recruiting/candidates/-/candidates/createProfile");
@@ -240,6 +278,11 @@ public class CreateCandidateTest {
     }
 
     @Test
+    @DisplayName("Создание кандидата с пустым именем")
+    @Description("Создание кандидата с пустым именем за главного рекрутера")
+    @Feature("Подбор и адаптация")
+    @Story("Сценарий 1 – Создание кандидата")
+    @Severity(SeverityLevel.CRITICAL)
     public void emptyNameTest() throws Exception{
         login();
         driver.get("http://testing.cld.iba.by/web/guest/recruiting/candidates/-/candidates/createProfile");
@@ -255,6 +298,11 @@ public class CreateCandidateTest {
     }
 
     @Test
+    @DisplayName("Создание кандидата только с буквами в поле Телефон")
+    @Description("Создание кандидата только с буквами в поле Телефон за главного рекрутера")
+    @Feature("Подбор и адаптация")
+    @Story("Сценарий 1 – Создание кандидата")
+    @Severity(SeverityLevel.CRITICAL)
     public void alphabeticalPhoneTest() throws Exception{
         login();
         driver.get("http://testing.cld.iba.by/web/guest/recruiting/candidates/-/candidates/createProfile");
@@ -270,6 +318,11 @@ public class CreateCandidateTest {
     }
 
     @Test
+    @DisplayName("Создание кандидата только с буквами в поле Email")
+    @Description("Создание кандидата только с буквами в поле Email за главного рекрутера")
+    @Feature("Подбор и адаптация")
+    @Story("Сценарий 1 – Создание кандидата")
+    @Severity(SeverityLevel.CRITICAL)
     public void alphabeticalEmailTest() throws Exception{
         login();
         driver.get("http://testing.cld.iba.by/web/guest/recruiting/candidates/-/candidates/createProfile");
@@ -285,6 +338,11 @@ public class CreateCandidateTest {
     }
 
     @Test
+    @DisplayName("Создание кандидата с пустым полем Email")
+    @Description("Создание кандидата с пустым полем Email за главного рекрутера")
+    @Feature("Подбор и адаптация")
+    @Story("Сценарий 1 – Создание кандидата")
+    @Severity(SeverityLevel.CRITICAL)
     public void emptyEmailTest() throws Exception{
         login();
         driver.get("http://testing.cld.iba.by/web/guest/recruiting/candidates/-/candidates/createProfile");
@@ -300,6 +358,11 @@ public class CreateCandidateTest {
     }
 
     @Test
+    @DisplayName("Создание кандидата c двумя точками")
+    @Description("Создание кандидата c двумя точками за главного рекрутера")
+    @Feature("Подбор и адаптация")
+    @Story("Сценарий 1 – Создание кандидата")
+    @Severity(SeverityLevel.CRITICAL)
     public void twoDotsEmailTest() throws Exception{
         login();
         driver.get("http://testing.cld.iba.by/web/guest/recruiting/candidates/-/candidates/createProfile");
@@ -315,6 +378,11 @@ public class CreateCandidateTest {
     }
 
     @Test
+    @DisplayName("Создание кандидата с двумя @")
+    @Description("Создание кандидата с двумя @ за главного рекрутера")
+    @Feature("Подбор и адаптация")
+    @Story("Сценарий 1 – Создание кандидата")
+    @Severity(SeverityLevel.CRITICAL)
     public void twoAtEmailTest() throws Exception{
         login();
         driver.get("http://testing.cld.iba.by/web/guest/recruiting/candidates/-/candidates/createProfile");

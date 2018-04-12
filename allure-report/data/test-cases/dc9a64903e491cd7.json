@@ -1,0 +1,338 @@
+{
+  "uid" : "dc9a64903e491cd7",
+  "name" : "Удаление кандидата",
+  "fullName" : "edu.bsuir.test.DeleteCandidateTest.deleteCandidate",
+  "historyId" : "ec8063b4f084ba785b5c2d6e380e320",
+  "time" : {
+    "start" : 1523547412397,
+    "stop" : 1523547437487,
+    "duration" : 25090
+  },
+  "status" : "passed",
+  "description" : "Удаление кандидата за главного рекрутера",
+  "descriptionHtml" : "<p>Удаление кандидата за главного рекрутера</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Входим в систему",
+      "time" : {
+        "start" : 1523547412401,
+        "stop" : 1523547415114,
+        "duration" : 2713
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : "Входим на страницу логина",
+        "time" : {
+          "start" : 1523547412411,
+          "stop" : 1523547413030,
+          "duration" : 619
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      }, {
+        "name" : "Вводим логин kabanov@tc.by",
+        "time" : {
+          "start" : 1523547413050,
+          "stop" : 1523547413212,
+          "duration" : 162
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "username",
+          "value" : "kabanov@tc.by"
+        } ]
+      }, {
+        "name" : "Вводим пароль welcome",
+        "time" : {
+          "start" : 1523547413212,
+          "stop" : 1523547413347,
+          "duration" : 135
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "welcome"
+        } ]
+      }, {
+        "name" : "Нажимаем на кнопку логина",
+        "time" : {
+          "start" : 1523547413347,
+          "stop" : 1523547415114,
+          "duration" : 1767
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "role",
+        "value" : "Генеральный директор"
+      } ]
+    }, {
+      "name" : "Переходим на страницу кандидатов",
+      "time" : {
+        "start" : 1523547415114,
+        "stop" : 1523547420059,
+        "duration" : 4945
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем создать кандидата",
+      "time" : {
+        "start" : 1523547422060,
+        "stop" : 1523547423257,
+        "duration" : 1197
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Вводим в поле Имя Федор",
+      "time" : {
+        "start" : 1523547423257,
+        "stop" : 1523547423394,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Федор"
+      } ]
+    }, {
+      "name" : "Вводим в поле Фамилия Федоров",
+      "time" : {
+        "start" : 1523547423394,
+        "stop" : 1523547423585,
+        "duration" : 191
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "surname",
+        "value" : "Федоров"
+      } ]
+    }, {
+      "name" : "Вводим в поле Телефон 12345",
+      "time" : {
+        "start" : 1523547423585,
+        "stop" : 1523547423719,
+        "duration" : 134
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "phone",
+        "value" : "12345"
+      } ]
+    }, {
+      "name" : "Вводим в поле Еmail qwe@asd.zxc",
+      "time" : {
+        "start" : 1523547423720,
+        "stop" : 1523547423895,
+        "duration" : 175
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "qwe@asd.zxc"
+      } ]
+    }, {
+      "name" : "Нажимаем 'Сохранить' ",
+      "time" : {
+        "start" : 1523547423895,
+        "stop" : 1523547424474,
+        "duration" : 579
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем на кнопку 'Назад к списку' ",
+      "time" : {
+        "start" : 1523547426479,
+        "stop" : 1523547427197,
+        "duration" : 718
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Вводим текст в поле поиска",
+      "time" : {
+        "start" : 1523547429199,
+        "stop" : 1523547429602,
+        "duration" : 403
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "search",
+        "value" : "Федор Федоров"
+      } ]
+    }, {
+      "name" : "Нажимаем на первого кандидата в списке",
+      "time" : {
+        "start" : 1523547431603,
+        "stop" : 1523547432630,
+        "duration" : 1027
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем на кнопку 'Удалить' ",
+      "time" : {
+        "start" : 1523547433630,
+        "stop" : 1523547433705,
+        "duration" : 75
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажимаем на кнопку 'Удалить' в всплывающем окне",
+      "time" : {
+        "start" : 1523547434706,
+        "stop" : 1523547434795,
+        "duration" : 89
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Вводим текст в поле поиска",
+      "time" : {
+        "start" : 1523547435864,
+        "stop" : 1523547436228,
+        "duration" : 364
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "search",
+        "value" : "Федор Федоров"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 18,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.DeleteCandidateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "deleteCandidate"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.DeleteCandidateTest"
+  }, {
+    "name" : "host",
+    "value" : "Home-pc"
+  }, {
+    "name" : "thread",
+    "value" : "10884@Home-pc.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Подбор и адаптация"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 3 – Удаление кандидата"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

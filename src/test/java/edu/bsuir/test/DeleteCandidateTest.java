@@ -6,6 +6,9 @@ import edu.bsuir.web.Login;
 import edu.bsuir.web.page.CandidateProfilePage;
 import edu.bsuir.web.page.CandidatesListPage;
 import edu.bsuir.web.page.CreatePage;
+import io.qameta.allure.*;
+import io.qameta.allure.junit4.DisplayName;
+import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -41,6 +44,11 @@ public class DeleteCandidateTest {
     }
 
     @Test
+    @DisplayName("Удаление кандидата")
+    @Description("Удаление кандидата за главного рекрутера")
+    @Feature("Подбор и адаптация")
+    @Story("Сценарий 3 – Удаление кандидата")
+    @Severity(SeverityLevel.NORMAL)
     public void deleteCandidate() throws Exception{
         Helper.waitForTime(1);
         clp.typeSearch(name + " " + surname);
@@ -54,6 +62,12 @@ public class DeleteCandidateTest {
         Assert.assertEquals("Профиль кандидата был успешно удален из системы", driver.findElement(By.xpath("//*[@id=\"successMessage\"]")).getText() );
         clp.typeSearch(name + " " + surname);
         Assert.assertEquals("Список кандидатов пуст", driver.findElement(By.xpath("/html/body/div/div[2]/div[2]/div/div[2]/div/div/div/div/section/div/div/div/div/div[2]/div/div[7]/div/div[2]/tc-alert/div/div[2]")).getText());
+    }
+
+    @After
+    public void logout(){
+        Helper.waitForTime(1);
+        driver.findElement(By.xpath("//*[@id=\"heading\"]/ul/li[6]/a/img")).click();
     }
 
 
